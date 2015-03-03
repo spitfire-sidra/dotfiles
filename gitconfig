@@ -1,0 +1,18 @@
+[push]
+    default = current
+[diff]
+    algorithm = patience
+[alias]
+    co = checkout
+    ci = commit
+    st = status
+    br = branch
+    assume = update-index --assume-unchanged
+    unassume = update-index --no-assume-unchanged
+    assumed = "!git ls-files -v | grep ^h | cut -c 3-"
+    unassumeall = "!git assumed | xargs git update-index --no-assume-unchanged"
+    assumeall = "!git st -s | awk {'print $2'} | xargs git assume"
+    snapshot = !git stash save "snapshot: $(date)" && git stash apply "stash@{0}"
+[color]
+    status = always
+    ui = true
