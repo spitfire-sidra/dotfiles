@@ -1,3 +1,6 @@
+set nocompatible
+set backspace=2
+
 filetype off
 filetype indent on
 "filetype plugin indent on
