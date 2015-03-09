@@ -4,7 +4,11 @@
     algorithm = patience
 [alias]
     co = checkout
+    cob = checkout -b
     ci = commit
+    cim = commit -m
+    di = diff
+    dis = diff --staged
     st = status
     br = branch
     assume = update-index --assume-unchanged
@@ -13,6 +17,11 @@
     unassumeall = "!git assumed | xargs git update-index --no-assume-unchanged"
     assumeall = "!git st -s | awk {'print $2'} | xargs git assume"
     snapshot = !git stash save "snapshot: $(date)" && git stash apply "stash@{0}"
+    amend = commit --amend
+    unstage = reset HEAD
+    uncommit = git reset --soft HEAD^
+[core]
+    pager = less -r
 [color]
     status = always
     ui = true
