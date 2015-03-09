@@ -15,3 +15,10 @@ except IOError:
 import atexit
 atexit.register(readline.write_history_file, histfile)
 del os, histfile
+
+
+# Useful modules
+import json
+import time
+import datetime
+import pprint
