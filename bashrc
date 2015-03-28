@@ -1,3 +1,5 @@
+export PS1='\[\033[01;30m\]\t \[\033[01;36m\]\u@dev\[\033[01;35m\] \w\n \[\033[01;32m\]\!\[\033[01;31m\]$(__git_ps1)\[\033[01;34m\] $(git_since_last_commit)\[\033[0m\]\$\[\033[00m\] '
+
 export PYTHONSTARTUP=~/.pystartup
 
 export HISTTIMEFORMAT='%F %T  '
@@ -39,5 +41,3 @@ function git_since_last_commit {
 
     echo "${hours_since_last_commit}h${minutes_since_last_commit}m ";
 }
-
-export PS1='\[\033[01;30m\]\t \[\033[01;36m\]\u@dev\[\033[01;35m\] \w\n \[\033[01;32m\]\!\[\033[01;31m\]$(__git_ps1)\[\033[01;34m\] $(git_since_last_commit)\[\033[0m\]\$\[\033[00m\] '

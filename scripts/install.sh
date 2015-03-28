@@ -8,14 +8,16 @@ cp -i ./tmux/tmux.conf ${HOME}/.tmux.conf
 cp -i ./git/gitconfig ${HOME}/.gitconfig
 cp -i ./git/gitignore ${HOME}/.gitignore
 cp -i ./git/git-completion.bash ${HOME}/.git-completion.bash
-cp -i ./git/git-completion.zsh ${HOME}/.git-completion.zsh
+mkdir -p ~/.zsh
+cp -i ./git/git-completion.zsh ${HOME}/.zsh/_git
+
 cp -i ./git/git-prompt.sh ${HOME}/.git-prompt.sh
 
 cp -i ./vimrc ${HOME}/.vimrc
 
 cp -i ./my.cnf ${HOME}/.my.cnf
 
-cp -i ./pystartup ${HOME}/.pystartup.cnf
+cp -i ./pystartup ${HOME}/.pystartup
 
 CURRENT_PATH=${PWD}
 

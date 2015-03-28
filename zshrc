@@ -1,8 +1,8 @@
-# Python
+# python
 export PYTHONSTARTUP=~/.pystartup
 
 # alias
 alias gp='fgrep -R -n -I --colour=always'
 
-source ~/.git-completion.zsh
+fpath=(~/.zsh $fpath)
 source ~/.git-prompt.sh
