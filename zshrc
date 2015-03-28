@@ -1,5 +1,8 @@
 # Python
 export PYTHONSTARTUP=~/.pystartup
 
-# Alias
+# alias
 alias gp='fgrep -R -n -I --colour=always'
+
+source ~/.git-completion.zsh
+source ~/.git-prompt.sh
