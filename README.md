@@ -1,5 +1,8 @@
 ## Installation
 
+```
+$ sh scripts/install.sh
+```
 
 ## Git completion
 
