@@ -1,30 +1,100 @@
+" General VIMRC
+
+syntax on
+
 set nocompatible
 set backspace=2
 
-filetype off
-filetype indent on
-"filetype plugin indent on
-syntax on
+set encoding=utf-8
+set foldlevelstart=0
+set laststatus=2
+set modeline
+set showtabline=2
+set t_Co=256
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set smarttab
 set expandtab
+set encoding=utf-8
 
+let mapleader=","
+let maplocalleader="\\"
+
+colorscheme murphy
+
+
+" Vim Statusline {{{
+
+set statusline=%f
+set statusline+=\ %y
+set statusline+=%=
+set statusline+=%l
+set statusline+=,
+set statusline+=%c
+set statusline+=:
+set statusline+=%L
+set statusline+=\[%p%%\]
+
+" }}}
+
+
+" Global Key Mapping {{{
+
+" Key map with leader key
+nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+nnoremap <leader>sv :source $MYVIMRC<cr>
+
+" Quote one word
+nnoremap <leader>" viw<esc>a"<esc>hbi"<esc>lbl
+nnoremap <leader>' viw<esc>a'<esc>hbi'<esc>lbl
+
+" Quote line
+nnoremap <leader>l" ^i"<esc>$a"<esc>^
+nnoremap <leader>l' ^i'<esc>$a'<esc>^
+
+" Upper case
+nnoremap <leader>U viwU<esc>
+
+" Lower case
+nnoremap <leader>u viwu<esc>
+
+" normal key map
+nnoremap <space> za
+nnoremap <F5> :set nu<CR>
+nnoremap <F6> :set nonu<CR>
+nnoremap <F7> :set ignorecase!<cr>
+nnoremap <F8> :TagbarToggle<cr>
+map <F9> :set paste<CR>
+map <F10> :set nopaste<CR>
+imap <F9> <C-O>:set paste<CR>
+imap <F10> <nop>
+set pastetoggle=<F10>
+
+" space = -
+" tab   = >-
 nnoremap <F2> :<C-U>setlocal lcs=tab:>-,trail:-,eol:$ list! list? <CR>
 
-map <F10> :set paste<CR>
-map <F11> :set nopaste<CR>
-imap <F10> <C-O>:set paste<CR>
-imap <F11> <nop>
-set pastetoggle=<F11>
+" }}}
 
-augroup vimrc_autocmds
-au!
-    autocmd BufEnter * highlight OverLength ctermbg=darkgrey guibg=#592929
-    autocmd BufEnter * match OverLength /\%74v.*/
-augroup END
 
-autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
-autocmd BufWritePre *.py normal m`:%s/\s\+$//e``
-colorscheme murphy
+" Vundle {{{
+
+filetype off " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
+
+" plugins
+Plugin 'scrooloose/nerdtree'
+map <C-n> :NERDTreeToggle<CR>
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+
+" }}}

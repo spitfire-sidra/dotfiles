@@ -8,6 +8,7 @@ cp -i ./tmux/tmux.conf ${HOME}/.tmux.conf
 cp -i ./git/gitconfig ${HOME}/.gitconfig
 cp -i ./git/gitignore ${HOME}/.gitignore
 cp -i ./git/git-completion.bash ${HOME}/.git-completion.bash
+
 mkdir -p ~/.zsh
 cp -i ./git/git-completion.zsh ${HOME}/.zsh/_git
 
@@ -37,4 +38,10 @@ if [ ${SHELL} == "/bin/bash" ]; then
         echo $NEWLINE >> ~/.bashrc
         source ~/.bashrc
     fi
+fi
+
+# install vundle
+if [ ! -d "${HOME}/.vim/bundle/Vundle.vim" ]; then
+    mkdir ${HOME}/.vim/bundle/
+    git clone https://github.com/gmarik/Vundle.vim.git ${HOME}/.vim/bundle/Vundle.vim
 fi
