@@ -11,6 +11,9 @@ set laststatus=2
 set modeline
 set showtabline=2
 set t_Co=256
+" in case t_Co alone doesn't work, add this as well:
+" let &t_AB="\e[48;5;%dm"
+" let &t_AF="\e[38;5;%dm"
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
@@ -21,8 +24,11 @@ set encoding=utf-8
 let mapleader=","
 let maplocalleader="\\"
 
-colorscheme murphy
+set background=dark
+colorscheme kalisi
 
+" set background to black
+highlight Normal ctermfg=grey ctermbg=black
 
 " Vim Statusline {{{
 
@@ -92,6 +98,9 @@ Plugin 'gmarik/Vundle.vim'
 " plugins
 Plugin 'scrooloose/nerdtree'
 map <C-n> :NERDTreeToggle<CR>
+
+Plugin 'bling/vim-airline'
+let g:airline_powerline_fonts=1
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

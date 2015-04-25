@@ -16,6 +16,9 @@ cp -i ./git/git-prompt.sh ${HOME}/.git-prompt.sh
 
 cp -i ./vimrc ${HOME}/.vimrc
 
+mkdir -p ${HOME}/.vim/colors
+cp -i -r ./vim/colors ${HOME}/.vim/
+
 cp -i ./my.cnf ${HOME}/.my.cnf
 
 cp -i ./pystartup ${HOME}/.pystartup

@@ -1,5 +1,3 @@
-export PS1='\[\033[01;30m\]\t \[\033[01;36m\]\u@dev\[\033[01;35m\] \w\n \[\033[01;32m\]\!\[\033[01;31m\]$(__git_ps1)\[\033[01;34m\] $(git_since_last_commit)\[\033[0m\]\$\[\033[00m\] '
-
 export PYTHONSTARTUP=~/.pystartup
 
 export HISTTIMEFORMAT='%F %T  '
@@ -31,13 +29,10 @@ function extract()      # Handy Extract Program
     fi
 }
 
-function git_since_last_commit {
-    now=`date +%s`;
-    last_commit=$(git log --pretty=format:%at -1 2> /dev/null) || return;
-    seconds_since_last_commit=$((now-last_commit));
-    minutes_since_last_commit=$((seconds_since_last_commit/60));
-    hours_since_last_commit=$((minutes_since_last_commit/60));
-    minutes_since_last_commit=$((minutes_since_last_commit%60));
+# powerline-shell
 
-    echo "${hours_since_last_commit}h${minutes_since_last_commit}m ";
+function _update_ps1() {
+   export PS1="$(~/powerline-shell.py $? 2> /dev/null)"
 }
+
+export PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
