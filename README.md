@@ -57,24 +57,16 @@ The version that I am using. Last commit: `55a3b3c26e`
 
 ## Recommended fonts for terminal
 
-[ ] Consolas (built-in on MAC OS X)
-
-[ ] [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
-
-[ ] [Anonymous Pro](http://www.marksimonson.com/fonts/view/anonymous-pro)
-
-[ ] [Ubuntu Mono](http://font.ubuntu.com/)
-
-[x] [DejaVu Sans Mono](http://dejavu-fonts.org/wiki/Main_Page)
+- [ ] Consolas (built-in on MAC OS X)
+- [ ] [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
+- [ ] [Anonymous Pro](http://www.marksimonson.com/fonts/view/anonymous-pro)
+- [ ] [Ubuntu Mono](http://font.ubuntu.com/)
+- [x] [DejaVu Sans Mono](http://dejavu-fonts.org/wiki/Main_Page)
 
 ## Recommended colorschemes for vim
 
-[ ] [Molokai](https://github.com/tomasr/molokai)
-
-[x] [Kalisi](https://github.com/freeo/vim-kalisi)
-
-[ ] [GRB256](https://github.com/alindeman/grb256)
-
-[ ] [Tomorrow](https://github.com/chriskempson/tomorrow-theme)
-
-[ ] [Solarized](https://github.com/altercation/vim-colors-solarized)
+- [ ] [Molokai](https://github.com/tomasr/molokai)
+- [x] [Kalisi](https://github.com/freeo/vim-kalisi)
+- [ ] [GRB256](https://github.com/alindeman/grb256)
+- [ ] [Tomorrow](https://github.com/chriskempson/tomorrow-theme)
+- [ ] [Solarized](https://github.com/altercation/vim-colors-solarized)
