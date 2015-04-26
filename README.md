@@ -8,6 +8,12 @@
 
 - [oh my zsh](http://ohmyz.sh/)
 
+- [python](https://www.python.org/)
+
+- [pip](https://pypi.python.org/pypi/pip)
+
+- [ctags](http://ctags.sourceforge.net/)
+
 ### oh-my-zsh settings
 
 ```
@@ -28,6 +34,12 @@ $ ./install.py
 $ ln -s <path/to/powerline-shell.py> ~/powerline-shell.py
 ```
 
+flake8
+
+```
+$ pip install flake8
+```
+
 My dotfiles
 
 ```
@@ -40,7 +52,7 @@ Git Configurations
 git config --global user.name "Your Name Here"
 git config --global user.email "your_email@example.com"
 git config --global core.editor "Your favorite text editor"
-git config --global core.excludesfile '~/.gitignore
+git config --global core.excludesfile '~/.gitignore'
 ```
 
 ## Install vim plugins using Vundle

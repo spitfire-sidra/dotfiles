@@ -16,6 +16,8 @@ cp -i ./git/git-prompt.sh ${HOME}/.git-prompt.sh
 
 cp -i ./vimrc ${HOME}/.vimrc
 
+cp -i ./ctags ${HOME}/.ctags
+
 mkdir -p ${HOME}/.vim/colors
 cp -i -r ./vim/colors ${HOME}/.vim/
 

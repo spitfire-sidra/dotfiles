@@ -1,0 +1,6 @@
+-python-kinds=-i
+--exclude=*/data/*
+--exclude=*/build/*
+--exclude=*/media/*
+--exclude=*/log/*
+--exclude=*/docs/*

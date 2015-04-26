@@ -101,6 +101,11 @@ map <C-n> :NERDTreeToggle<CR>
 
 Plugin 'bling/vim-airline'
 let g:airline_powerline_fonts=1
+let g:airline#extensions#tabline#enabled=1
+
+Plugin 'kien/ctrlp.vim'
+
+Plugin 'nvie/vim-flake8'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
