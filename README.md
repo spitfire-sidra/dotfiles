@@ -43,7 +43,8 @@ $ pip install flake8
 My dotfiles
 
 ```
-$ sh scripts/install.sh
+$ chmod +x scripts/install.sh
+$ ./scripts/install.sh
 ```
 
 Git Configurations
@@ -66,6 +67,58 @@ or
 ## Git completion
 
 The version that I am using. Last commit: `55a3b3c26e`
+
+## Programming with ctags
+
+1. To generate ctags file
+
+``
+$ ctags -R -o </path/to/ctags/file> <path/to/yourproject>
+```
+
+2. Add setting to vimrc
+
+```
+set tags=/path/to/ctags/file
+```
+
+## Cheatsheet
+
+`F2` - show space/tab
+
+`F3` - toggle paste/nopaste
+
+`F4` - toggle nu/nonu
+
+`F5` - toggle hlsearch/nohlsearch
+
+`F6` - set ignorecase!
+
+`F7` - fake8
+
+`F8` - toggle tagbar
+
+`Ctrl + ]` to jump to the definition
+
+`Ctrl + T` to pop back
+
+`Ctrl + n` to open `NERDTree`
+
+`%` to match it (may not work for some file types)
+
+`,"` to quote a word with `"`
+
+`,'` to quote a word with `'`
+
+`,l"` to quote a line with `"`
+
+`,l'` to quote a line with `'`
+
+`,u` lower case
+
+`,U' upper case
+
+[CtrlP](http://kien.github.io/ctrlp.vim/)
 
 ## Recommended fonts for terminal
 
