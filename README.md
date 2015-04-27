@@ -72,15 +72,15 @@ The version that I am using. Last commit: `55a3b3c26e`
 
 1. To generate ctags file
 
-```
-$ ctags -R -o </path/to/ctags/file> <path/to/yourproject>
-```
+    ```
+    $ ctags -R -o </path/to/ctags/file> <path/to/yourproject>
+    ```
 
 2. Add setting to vimrc
 
-```
-set tags=/path/to/ctags/file
-```
+    ```
+    set tags=/path/to/ctags/file
+    ```
 
 ## Cheatsheet
 
