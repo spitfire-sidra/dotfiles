@@ -116,7 +116,7 @@ set tags=/path/to/ctags/file
 
 `,u` lower case
 
-`,U' upper case
+`,U` upper case
 
 [CtrlP](http://kien.github.io/ctrlp.vim/)
 
