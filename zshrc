@@ -4,6 +4,13 @@ export PYTHONSTARTUP=~/.pystartup
 # alias
 alias gp='fgrep -R -n -I --colour=always'
 
+# my favor grep
+function mgrep()
+{
+    grep -s -n -r --binary-files=without-match --color "$@"
+}
+
+
 fpath=(~/.zsh $fpath)
 source ~/.git-prompt.sh
 

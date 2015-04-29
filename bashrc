@@ -7,6 +7,11 @@ source ~/.git-prompt.sh
 
 alias gp='fgrep -R -n -I --colour=always'
 
+function mgrep()
+{
+    grep -s -n -r --binary-files=without-match --color "$@"
+}
+
 function extract()      # Handy Extract Program
 {
     if [ -f $1 ] ; then
