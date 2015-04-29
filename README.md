@@ -118,6 +118,10 @@ The version that I am using. Last commit: `55a3b3c26e`
 
 `,U` upper case
 
+`,→` next vim tab page
+
+`,←` previous vim tab page
+
 [CtrlP](http://kien.github.io/ctrlp.vim/)
 
 ## Recommended fonts for terminal

@@ -61,7 +61,12 @@ nmap <F5> :set hls!<CR>:set hls?<CR>
 nnoremap <F6> :set ignorecase!<CR>
 " <F7> flake8
 nnoremap <F8> :TagbarToggle<CR>
+
+" vim tab pages
+nnoremap <leader><Left> :tabprevious<CR>
+nnoremap <leader><Right> :tabnext<CR>
 " }}}
+
 
 " Vundle {{{
 
