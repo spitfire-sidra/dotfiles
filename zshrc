@@ -1,3 +1,8 @@
+# golang
+if [ -d "/usr/local/go/bin" ]; then
+    export PATH=$PATH:/usr/local/go/bin
+fi
+
 # python
 export PYTHONSTARTUP=~/.pystartup
 
