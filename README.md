@@ -14,6 +14,10 @@
 
 - [ctags](http://ctags.sourceforge.net/)
 
+## Optional
+
+- [golang](https://golang.org/)
+
 ### oh-my-zsh settings
 
 ```
