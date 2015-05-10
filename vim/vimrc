@@ -61,7 +61,7 @@ nmap <F5> :set hls!<CR>:set hls?<CR>
 nnoremap <F6> :set ignorecase!<CR>
 " <F7> flake8
 nnoremap <F8> :TagbarToggle<CR>
-
+nnoremap <F9> :IndentLinesToggle<CR>
 " vim tab pages
 nnoremap <leader><Left> :tabprevious<CR>
 nnoremap <leader><Right> :tabnext<CR>
@@ -81,6 +81,7 @@ Plugin 'gmarik/Vundle.vim'
 
 " plugins
 Plugin 'scrooloose/nerdtree'
+let NERDTreeIgnore=['\.pyc']
 map <C-n> :NERDTreeToggle<CR>
 
 Plugin 'bling/vim-airline'
@@ -88,6 +89,11 @@ let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled=1
 
 Plugin 'kien/ctrlp.vim'
+set wildignore+=*.so,*.swp,*.zip,*.pyc,*.png,*.jpg,*.gif     " MacOSX/Linux
+set wildignore+=*.swp,*.zip,*.exe,*.pyc,*.png,*.jpg,*.gif  " Windows
+
+let g:ctrlp_custom_ignore='\v[\/]\.(git|hg|svn)$'
+let g:ctrlp_custom_ignore='\v\.(exe|so|dll)$'
 
 Plugin 'nvie/vim-flake8'
 let g:flake8_quickfix_height=10
@@ -103,6 +109,9 @@ Plugin 'matchit.zip'
 Plugin 'majutsushi/tagbar'
 
 Plugin 'ap/vim-css-color'
+
+Plugin 'Yggdroot/indentLine'
+let g:indentLine_char='┊'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

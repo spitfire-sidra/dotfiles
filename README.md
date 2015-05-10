@@ -18,6 +18,8 @@
 
 - [golang](https://golang.org/)
 
+- [pydiction (vim autocomplete plugin for python)](https://github.com/rkulla/pydiction)
+
 ### oh-my-zsh settings
 
 ```
@@ -101,6 +103,8 @@ The version that I am using. Last commit: `55a3b3c26e`
 `F7` - fake8
 
 `F8` - toggle tagbar
+
+`F9` - toogle indentlines
 
 `Ctrl + ]` to jump to the definition
 
