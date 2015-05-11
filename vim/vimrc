@@ -25,6 +25,8 @@ let mapleader=","
 let maplocalleader="\\"
 
 set background=dark
+set scrolloff=5
+
 colorscheme kalisi
 
 " set background to black
