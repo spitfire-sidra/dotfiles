@@ -14,9 +14,13 @@
 
 - [ctags](http://ctags.sourceforge.net/)
 
+- [autojump](https://github.com/joelthelion/autojump)
+
 ## Optional
 
 - [golang](https://golang.org/)
+
+- [Postgres.app (Mac OS X only)](http://postgresapp.com/)
 
 - [pydiction (vim autocomplete plugin for python)](https://github.com/rkulla/pydiction)
 

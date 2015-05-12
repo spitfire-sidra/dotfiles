@@ -113,7 +113,8 @@ Plugin 'majutsushi/tagbar'
 Plugin 'ap/vim-css-color'
 
 Plugin 'Yggdroot/indentLine'
-let g:indentLine_char='┊'
+let g:indentLine_enabled=0
+let g:indentLine_char='︙'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

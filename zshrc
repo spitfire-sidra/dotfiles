@@ -3,6 +3,11 @@ if [ -d "/usr/local/go/bin" ]; then
     export PATH=$PATH:/usr/local/go/bin
 fi
 
+# Postgres.app
+if [ -d "/Applications/Postgres.app/Contents/Versions/9.4/bin" ]; then
+    export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
+fi
+
 # python
 export PYTHONSTARTUP=~/.pystartup
 
