@@ -22,6 +22,8 @@
 
 - [Postgres.app (Mac OS X only)](http://postgresapp.com/)
 
+- [Boot2docker (Mac OS X only)](https://github.com/boot2docker/boot2docker)
+
 - [pydiction (vim autocomplete plugin for python)](https://github.com/rkulla/pydiction)
 
 ### oh-my-zsh settings
