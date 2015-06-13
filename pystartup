@@ -22,3 +22,31 @@ import json
 import time
 import datetime
 import pprint
+
+
+class Pipe(object):
+    """ My custom infix pipe decorator """
+
+    def __init__(self, func):
+        self.func = func
+
+    def __ror__(self, iterable):
+        return self.func(iterable)
+
+    def __call__(self, *args, **kwargs):
+        return Pipe(lambda iterable: self.func(iterable, *args, **kwargs))
+
+
+@Pipe
+def tail(iterable, num):
+    return iterable[-num:]
+
+
+@Pipe
+def sort(iterable, **kwargs):
+    return sorted(iterable, **kwargs)
+
+
+@Pipe
+def first(iterable):
+    return next(iter(iterable))

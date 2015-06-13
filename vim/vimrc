@@ -2,6 +2,13 @@
 
 syntax on
 
+" config cursor
+set gcr=a:blinkon0
+set gcr=n:blinkon0
+set cursorline
+set cursorcolumn
+
+
 set nocompatible
 set backspace=2
 
