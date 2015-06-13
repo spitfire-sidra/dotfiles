@@ -131,6 +131,17 @@ Plugin 'Yggdroot/indentLine'
 let g:indentLine_enabled=0
 let g:indentLine_char='︙'
 
+" UltiSnips, >= vim 7.4 required
+" Track the engine.
+"Plugin 'SirVer/ultisnips'
+
+" Snippets are separated from the engine. Add this if you want them:
+"Plugin 'honza/vim-snippets'
+
+"let g:UltiSnipsExpandTrigger="<leader><tab>"
+"let g:UltiSnipsJumpForwardTrigger="<leader><tab>"
+"let g:UltiSnipsJumpBackwardTrigger="<leader><s-tab>"
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
