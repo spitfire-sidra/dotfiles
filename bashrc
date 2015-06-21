@@ -12,6 +12,8 @@ source ~/.git-completion.bash
 source ~/.git-prompt.sh
 
 alias gp='fgrep -R -n -I --colour=always'
+alias g='git'
+complete -o default -o nospace -F _git g
 
 function mgrep()
 {

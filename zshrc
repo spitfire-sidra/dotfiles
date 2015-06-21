@@ -14,13 +14,16 @@ export PYTHONSTARTUP=~/.pystartup
 # alias
 alias gp='fgrep -R -n -I --colour=always'
 alias cal='cal | grep -C 6 --color -e " $(date +%e)" -e "^$(date +%e)"'
+alias g='git'
+
+# autocomplete for 'g' as well
+complete -o default -o nospace -F _git g
 
 # my favor grep
 function mgrep()
 {
     grep -s -n -r --binary-files=without-match --color "$@"
 }
-
 
 fpath=(~/.zsh $fpath)
 source ~/.git-prompt.sh
