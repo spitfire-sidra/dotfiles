@@ -13,6 +13,7 @@ export PYTHONSTARTUP=~/.pystartup
 
 # alias
 alias gp='fgrep -R -n -I --colour=always'
+alias cal='cal | grep -C 6 --color -e " $(date +%e)" -e "^$(date +%e)"'
 
 # my favor grep
 function mgrep()

@@ -47,3 +47,5 @@ function _update_ps1() {
 }
 
 export PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
+
+alias cal='cal | grep -C 6 --color -e " $(date +%e)" -e "^$(date +%e)"'
