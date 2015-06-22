@@ -16,8 +16,8 @@ alias gp='fgrep -R -n -I --colour=always'
 alias cal='cal | grep -C 6 --color -e " $(date +%e)" -e "^$(date +%e)"'
 alias g='git'
 
-# autocomplete for 'g' as well
-complete -o default -o nospace -F _git g
+# unset some env variables
+unset LC_CTYPE
 
 # my favor grep
 function mgrep()

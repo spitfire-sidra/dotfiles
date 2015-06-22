@@ -15,6 +15,9 @@ alias gp='fgrep -R -n -I --colour=always'
 alias g='git'
 complete -o default -o nospace -F _git g
 
+# unset some env variables
+unset LC_CTYPE
+
 function mgrep()
 {
     grep -s -n -r --binary-files=without-match --color "$@"
