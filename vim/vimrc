@@ -131,6 +131,10 @@ Plugin 'Yggdroot/indentLine'
 let g:indentLine_enabled=0
 let g:indentLine_char='︙'
 
+Plugin 'easymotion/vim-easymotion'
+nmap s <Plug>(easymotion-s)
+nmap s <Plug>(easymotion-s2)
+
 " UltiSnips, >= vim 7.4 required
 " Track the engine.
 "Plugin 'SirVer/ultisnips'

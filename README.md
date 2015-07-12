@@ -136,6 +136,14 @@ The version that I am using. Last commit: `55a3b3c26e`
 
 `,←` previous vim tab page
 
+`,,w` jump between words
+
+[easymotion](https://github.com/easymotion/vim-easymotion)
+
+`s` 1 character search
+
+`ss` 2 characters search
+
 [CtrlP](http://kien.github.io/ctrlp.vim/)
 
 ## Recommended fonts for terminal
