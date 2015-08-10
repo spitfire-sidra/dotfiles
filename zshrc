@@ -15,6 +15,7 @@ export PYTHONSTARTUP=~/.pystartup
 alias gp='fgrep -R -n -I --colour=always'
 alias cal='cal | grep -C 6 --color -e " $(date +%e)" -e "^$(date +%e)"'
 alias g='git'
+alias v='vim'
 
 # unset some env variables
 unset LC_CTYPE
