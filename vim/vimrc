@@ -8,6 +8,8 @@ set gcr=n:blinkon0
 set cursorline
 set cursorcolumn
 
+" config mouse
+set mouse=r
 
 set nocompatible
 set backspace=2
