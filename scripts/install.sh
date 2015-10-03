@@ -10,7 +10,7 @@ cp -i ./git/gitignore ${HOME}/.gitignore
 cp -i ./git/git-completion.bash ${HOME}/.git-completion.bash
 
 mkdir -p ~/.zsh
-cp -i ./git/git-completion.zsh ${HOME}/.zsh/_git
+cp -i ./git/git-completion.zsh ${HOME}/.git-completion.zsh
 
 cp -i ./git/git-prompt.sh ${HOME}/.git-prompt.sh
 

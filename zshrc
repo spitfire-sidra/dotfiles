@@ -26,8 +26,8 @@ function mgrep()
     grep -s -n -r --binary-files=without-match --color "$@"
 }
 
-fpath=(~/.zsh $fpath)
 source ~/.git-prompt.sh
+zstyle ':completion:*:*:git:*' script ~/.git-completion.zsh
 
 # powerline-shell
 function powerline_precmd() {
