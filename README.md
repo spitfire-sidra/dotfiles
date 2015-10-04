@@ -26,17 +26,7 @@
 
 - [pydiction (vim autocomplete plugin for python)](https://github.com/rkulla/pydiction)
 
-### oh-my-zsh settings
-
-```
-ZSH_THEME=""
-HIST_STAMPS="yyyy-mm-dd"
-plugins=(git autopep8 autojump docker django vundle virtualenv vim-interaction)
-```
-
-## Installation
-
-powerline shell
+- [Powerline-shell](https://github.com/milkbikis/powerline-shell)
 
 ```
 $ git clone https://github.com/milkbikis/powerline-shell
@@ -45,6 +35,17 @@ $ cp config.py.dist config.py
 $ ./install.py
 $ ln -s <path/to/powerline-shell.py> ~/powerline-shell.py
 ```
+
+### oh-my-zsh settings
+
+```
+ZSH_THEME=""
+HIST_STAMPS="yyyy-mm-dd"
+plugins=(git autopep8 autojump docker docker-compose django vundle virtualenv vim-interaction)
+```
+
+## Installation
+
 
 flake8
 
