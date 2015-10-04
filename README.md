@@ -56,8 +56,8 @@ $ pip install flake8
 My dotfiles
 
 ```
-$ chmod +x scripts/install.sh
-$ ./scripts/install.sh
+$ chmod +x install.sh
+$ ./install.sh
 ```
 
 Git Configurations
@@ -121,6 +121,8 @@ The version that I am using. Last commit: `55a3b3c26e`
 
 `%` to match it (may not work for some file types)
 
+`,c` to clear highlight search result
+
 `,"` to quote a word with `"`
 
 `,'` to quote a word with `'`
@@ -140,6 +142,14 @@ The version that I am using. Last commit: `55a3b3c26e`
 `,,w` jump between words
 
 [easymotion](https://github.com/easymotion/vim-easymotion)
+
+`,gd` git diff
+
+`,gs` git status
+
+`,gb` git blame
+
+[vim-fugitive](https://github.com/tpope/vim-fugitive)
 
 `s` 1 character search
 

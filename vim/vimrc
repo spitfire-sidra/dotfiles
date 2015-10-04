@@ -12,6 +12,7 @@ set cursorcolumn
 set mouse=r
 
 set nocompatible
+set modelines=0
 set backspace=2
 
 set encoding=utf-8
@@ -29,6 +30,24 @@ set softtabstop=4
 set smarttab
 set expandtab
 set encoding=utf-8
+
+set showmode
+set hidden
+set wildmenu
+set wildmode=list:longest
+set visualbell
+set ttyfast
+
+set ignorecase
+set smartcase
+set gdefault
+set incsearch
+set showmatch
+set hlsearch
+
+" new feature from vim 7.3
+set relativenumber
+set undofile
 
 let mapleader=","
 let maplocalleader="\\"
@@ -86,6 +105,8 @@ nnoremap <leader><Left> :tabprevious<CR>
 nnoremap <leader><Right> :tabnext<CR>
 " }}}
 
+nnoremap <leader>c :noh<cr>
+
 
 " Vundle {{{
 
@@ -120,6 +141,11 @@ let g:flake8_quickfix_height=10
 
 Plugin 'othree/html5.vim'
 Plugin 'othree/html5-syntax.vim'
+
+Plugin 'tpope/vim-fugitive'
+nmap <leader>gd :Gdiff<CR>
+nmap <leader>gs :Gstatus<CR>
+nmap <leader>gb :Gblame<CR>
 
 Plugin 'python.vim'
 
@@ -156,3 +182,6 @@ filetype plugin indent on    " required
 
 " remove tailing spaces when save file
 autocmd BufWritePre * :%s/\s\+$//e
+
+autocmd InsertEnter * :set number
+autocmd InsertLeave * :set relativenumber
