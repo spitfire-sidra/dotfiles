@@ -151,6 +151,8 @@ The version that I am using. Last commit: `55a3b3c26e`
 
 [vim-fugitive](https://github.com/tpope/vim-fugitive)
 
+[vim-gitgutter](https://github.com/airblade/vim-gitgutter)
+
 `s` 1 character search
 
 `ss` 2 characters search
