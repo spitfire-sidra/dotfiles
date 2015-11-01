@@ -2,6 +2,15 @@
 
 syntax on
 
+set splitbelow
+set splitright
+
+"split navigations
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
 " config cursor
 set gcr=a:blinkon0
 set gcr=n:blinkon0
@@ -150,6 +159,7 @@ nmap <leader>gb :Gblame<CR>
 Plugin 'airblade/vim-gitgutter'
 
 Plugin 'python.vim'
+let python_highlight_all=1
 
 Plugin 'matchit.zip'
 
@@ -164,6 +174,9 @@ let g:indentLine_char='︙'
 Plugin 'easymotion/vim-easymotion'
 nmap s <Plug>(easymotion-s)
 nmap s <Plug>(easymotion-s2)
+
+" color scheme
+Plugin 'jnurmine/Zenburn'
 
 " UltiSnips, >= vim 7.4 required
 " Track the engine.
@@ -187,3 +200,13 @@ autocmd BufWritePre * :%s/\s\+$//e
 
 autocmd InsertEnter * :set number
 autocmd InsertLeave * :set relativenumber
+
+"python with virtualenv support
+py << EOF
+import os
+import sys
+if 'VIRTUAL_ENV' in os.environ:
+  project_base_dir = os.environ['VIRTUAL_ENV']
+  activate_this = os.path.join(project_base_dir, 'bin/activate_this.py')
+  execfile(activate_this, dict(__file__=activate_this))
+EOF

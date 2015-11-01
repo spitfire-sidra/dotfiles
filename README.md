@@ -97,6 +97,14 @@ The version that I am using. Last commit: `55a3b3c26e`
 
 ## Cheatsheet
 
+`Ctrl-j` move to the split below
+
+`Ctrl-k` move to the split above
+
+`Ctrl-l` move to the split to the right
+
+`Ctrl-h` move to the split to the left
+
 `F2` - show space/tab
 
 `F3` - toggle paste/nopaste
