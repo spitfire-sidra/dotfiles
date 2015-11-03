@@ -48,10 +48,10 @@ function extract()      # Handy Extract Program
 
 # powerline-shell
 
-function _update_ps1() {
-   export PS1="$(~/rivendell/toolkit/powerline-shell.py $? 2> /dev/null)"
-}
+#function _update_ps1() {
+#   export PS1="$(~/rivendell/toolkit/powerline-shell.py $? 2> /dev/null)"
+#}
 
-export PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
+#export PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 
 alias cal='cal | grep -C 6 --color -e " $(date +%e)" -e "^$(date +%e)"'
