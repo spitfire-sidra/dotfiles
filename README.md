@@ -18,6 +18,8 @@
 
 - [ag](https://github.com/ggreer/the_silver_searcher)
 
+- [tmuxinator](https://github.com/tmuxinator/tmuxinator)
+
 ## Optional
 
 - [golang](https://golang.org/)
