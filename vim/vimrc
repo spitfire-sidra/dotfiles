@@ -158,6 +158,8 @@ nmap <leader>gb :Gblame<CR>
 
 Plugin 'airblade/vim-gitgutter'
 
+Plugin 'rking/ag.vim'
+
 Plugin 'python.vim'
 let python_highlight_all=1
 
