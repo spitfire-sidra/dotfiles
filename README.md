@@ -16,6 +16,8 @@
 
 - [autojump](https://github.com/joelthelion/autojump)
 
+- [ag](https://github.com/ggreer/the_silver_searcher)
+
 ## Optional
 
 - [golang](https://golang.org/)

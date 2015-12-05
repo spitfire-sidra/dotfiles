@@ -7,6 +7,7 @@ if [ -d "/usr/local/go/bin" ]; then
 fi
 
 export HISTTIMEFORMAT='%F %T  '
+export EDITOR='vim'
 
 source ~/.git-completion.bash
 source ~/.git-prompt.sh
