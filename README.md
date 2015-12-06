@@ -77,6 +77,10 @@ git config --global core.editor "Your favorite text editor"
 git config --global core.excludesfile '~/.gitignore'
 ```
 
+### Customized bash/zsh rc files
+
+Just put bash/zsh rc files in `~/.bashrc.d` / `~/.zshrc.d`
+
 ## Install vim plugins using Vundle
 
 * Launch vim and run `:PluginInstall`
@@ -103,7 +107,7 @@ The version that I am using. Last commit: `55a3b3c26e`
     set tags=/path/to/ctags/file
     ```
 
-## Cheatsheet
+## Vim Cheatsheet
 
 `Ctrl-j` move to the split below
 

@@ -56,3 +56,10 @@ function extract()      # Handy Extract Program
 #export PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 
 alias cal='cal | grep -C 6 --color -e " $(date +%e)" -e "^$(date +%e)"'
+
+# load all files from .bashrc.d directory
+if [ -d $HOME/.bashrc.d ]; then
+  for file in $HOME/.bashrc.d/*.sh; do
+    source $file
+  done
+fi
