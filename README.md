@@ -26,11 +26,15 @@
 
 - [Postgres.app (Mac OS X only)](http://postgresapp.com/)
 
-- [Boot2docker (Mac OS X only)](https://github.com/boot2docker/boot2docker)
+- [Docker Toolbox](https://www.docker.com/docker-toolbox)
 
 - [pydiction (vim autocomplete plugin for python)](https://github.com/rkulla/pydiction)
 
 - [Powerline-shell](https://github.com/milkbikis/powerline-shell)
+
+- [mysql-cli](https://github.com/dbcli/mycli)
+
+- [pg-cli](https://github.com/dbcli/pgcli)
 
 ```
 $ git clone https://github.com/milkbikis/powerline-shell
