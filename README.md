@@ -18,6 +18,8 @@
 
 - [autojump](https://github.com/joelthelion/autojump)
 
+- [jq](https://stedolan.github.io/jq/)
+
 - [ag](https://github.com/ggreer/the_silver_searcher)
 
 - [tmuxinator](https://github.com/tmuxinator/tmuxinator)
