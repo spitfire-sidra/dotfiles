@@ -10,6 +10,8 @@
 
 - [python](https://www.python.org/)
 
+- [bpython](https://github.com/bpython/bpython)
+
 - [pip](https://pypi.python.org/pypi/pip)
 
 - [ctags](http://ctags.sourceforge.net/)
@@ -20,6 +22,20 @@
 
 - [tmuxinator](https://github.com/tmuxinator/tmuxinator)
 
+- [zsh-completions](https://github.com/zsh-users/zsh-completions)
+
+```
+# OS X
+$ brew install zsh-completions
+```
+
+- [bash-completion](http://bash-completion.alioth.debian.org/)
+
+```
+# OS X
+$ brew install bash-completion
+```
+
 ## Optional
 
 - [golang](https://golang.org/)
@@ -29,6 +45,8 @@
 - [Docker Toolbox](https://www.docker.com/docker-toolbox)
 
 - [pydiction (vim autocomplete plugin for python)](https://github.com/rkulla/pydiction)
+
+- [aws-shell](https://github.com/awslabs/aws-shell)
 
 - [Powerline-shell](https://github.com/milkbikis/powerline-shell)
 
