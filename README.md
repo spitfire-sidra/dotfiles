@@ -181,6 +181,12 @@ The version that I am using. Last commit: `55a3b3c26e`
 
 `,,w` jump between words
 
+`,n` to set nonumber
+
+[ultisnips](https://github.com/SirVer/ultisnips)
+
+`,tab` ultisnips
+
 [easymotion](https://github.com/easymotion/vim-easymotion)
 
 `,gd` git diff
@@ -198,6 +204,10 @@ The version that I am using. Last commit: `55a3b3c26e`
 `ss` 2 characters search
 
 [CtrlP](http://kien.github.io/ctrlp.vim/)
+
+[Tabular](https://github.com/godlygeek/tabular)
+
+`:Tab /:` or `:Tab /|` or `:Tab /=`
 
 ## Recommended fonts for terminal
 

@@ -173,6 +173,8 @@ Plugin 'majutsushi/tagbar'
 
 Plugin 'ap/vim-css-color'
 
+Plugin 'godlygeek/tabular'
+
 Plugin 'Yggdroot/indentLine'
 let g:indentLine_enabled=0
 let g:indentLine_char='︙'
