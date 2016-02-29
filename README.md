@@ -26,6 +26,10 @@
 
 - [zsh-completions](https://github.com/zsh-users/zsh-completions)
 
+- [jedi](https://github.com/davidhalter/jedi)
+
+- VIM 7.4 or later
+
 ```
 # OS X
 $ brew install zsh-completions
@@ -208,6 +212,18 @@ The version that I am using. Last commit: `55a3b3c26e`
 [Tabular](https://github.com/godlygeek/tabular)
 
 `:Tab /:` or `:Tab /|` or `:Tab /=`
+
+[jedi-vim](https://github.com/davidhalter/jedi-vim)
+
+`Ctrl + O` autocomplete
+
+## Customized vimrc
+
+name it `user.vim` and put it under the following folder
+
+```
+~/.vim/
+```
 
 ## Recommended fonts for terminal
 

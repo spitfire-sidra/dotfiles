@@ -5,6 +5,10 @@ syntax on
 set splitbelow
 set splitright
 
+set title
+set visualbell
+set noerrorbells
+
 "split navigations
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
@@ -70,6 +74,10 @@ colorscheme kalisi
 highlight Normal ctermfg=grey ctermbg=black
 
 " Global Key Mapping {{{
+
+" turn off vim default regex characters
+nnoremap / /\v
+vnoremap / /\v
 
 " Key map with leader key
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
@@ -190,6 +198,10 @@ Plugin 'jnurmine/Zenburn'
 " Track the engine.
 Plugin 'SirVer/ultisnips'
 
+" jedi vim
+Plugin 'davidhalter/jedi-vim'
+let g:jedi#completions_command = "<C-O>"
+
 " Snippets are separated from the engine. Add this if you want them:
 Plugin 'honza/vim-snippets'
 
@@ -208,6 +220,10 @@ autocmd BufWritePre * :%s/\s\+$//e
 
 autocmd InsertEnter * :set number
 autocmd InsertLeave * :set relativenumber
+
+" Extra user or machine specific settings {{{
+source ~/.vim/user.vim
+" " }}}
 
 "python with virtualenv support
 py << EOF
