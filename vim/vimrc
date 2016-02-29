@@ -114,8 +114,8 @@ nnoremap <leader><Left> :tabprevious<CR>
 nnoremap <leader><Right> :tabnext<CR>
 " }}}
 
-nnoremap <leader>c :noh<cr>
-
+nnoremap <leader>c :noh<CR>
+nnoremap <leader>n :set norelativenumber<CR>:set nonu<CR>
 
 " Vundle {{{
 
@@ -129,6 +129,10 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " plugins
+
+"Plugin 'tmhedberg/SimpylFold'
+"let g:SimpylFold_docstring_preview = 1
+
 Plugin 'scrooloose/nerdtree'
 let NERDTreeIgnore=['\.pyc']
 map <C-n> :NERDTreeToggle<CR>
@@ -182,14 +186,14 @@ Plugin 'jnurmine/Zenburn'
 
 " UltiSnips, >= vim 7.4 required
 " Track the engine.
-"Plugin 'SirVer/ultisnips'
+Plugin 'SirVer/ultisnips'
 
 " Snippets are separated from the engine. Add this if you want them:
-"Plugin 'honza/vim-snippets'
+Plugin 'honza/vim-snippets'
 
-"let g:UltiSnipsExpandTrigger="<leader><tab>"
-"let g:UltiSnipsJumpForwardTrigger="<leader><tab>"
-"let g:UltiSnipsJumpBackwardTrigger="<leader><s-tab>"
+let g:UltiSnipsExpandTrigger="<leader><tab>"
+let g:UltiSnipsJumpForwardTrigger="<leader><tab>"
+let g:UltiSnipsJumpBackwardTrigger="<leader><s-tab>"
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
