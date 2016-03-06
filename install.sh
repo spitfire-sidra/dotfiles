@@ -15,6 +15,7 @@ cp -i ./git/git-completion.zsh ${HOME}/.git-completion.zsh
 cp -i ./git/git-prompt.sh ${HOME}/.git-prompt.sh
 
 cp -i ./vim/vimrc ${HOME}/.vimrc
+cp -i ./vim/gvimrc ${HOME}/.gvimrc
 
 cp -i ./ctags ${HOME}/.ctags
 
