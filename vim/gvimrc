@@ -1,0 +1,4 @@
+" sharing clipboard
+set clipboard=unnamed
+
+set guifont=Sauce\ Code\ Powerline\ Light:h14
