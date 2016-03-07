@@ -68,7 +68,7 @@ let maplocalleader="\\"
 set background=dark
 set scrolloff=5
 
-colorscheme kalisi
+colorscheme solarized
 
 " set background to black
 highlight Normal ctermfg=grey ctermbg=black

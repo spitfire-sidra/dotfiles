@@ -2,3 +2,5 @@
 set clipboard=unnamed
 
 set guifont=Sauce\ Code\ Powerline\ Light:h14
+
+set mouse=a
