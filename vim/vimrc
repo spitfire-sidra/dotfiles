@@ -8,6 +8,7 @@ set splitright
 set title
 set visualbell
 set noerrorbells
+set mps+=<:>
 
 "split navigations
 nnoremap <C-J> <C-W><C-J>
