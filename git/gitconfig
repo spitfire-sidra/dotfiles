@@ -18,6 +18,7 @@
     assumeall = "!git st -s | awk {'print $2'} | xargs git assume"
     snapshot = !git stash save "snapshot: $(date)" && git stash apply "stash@{0}"
     amend = commit --amend
+    undo = reset --hard HEAD^
     unstage = reset HEAD
     uncommit = git reset --soft HEAD^
 [core]
