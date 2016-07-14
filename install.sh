@@ -26,6 +26,10 @@ cp -i ./my.cnf ${HOME}/.my.cnf
 
 cp -i ./pystartup ${HOME}/.pystartup
 
+if [ ! -d "${HOME}/.ssh/config" ]; then
+    cp ./ssh/config ${HOME}/.ssh/config
+fi
+
 CURRENT_PATH=${PWD}
 
 if [ ${SHELL} == "/bin/zsh" ]; then
