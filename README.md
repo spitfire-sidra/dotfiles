@@ -10,6 +10,8 @@
 
 - [python](https://www.python.org/)
 
+- [Jupyter](http://jupyter.org/)
+
 - [bpython](https://github.com/bpython/bpython)
 
 - [pip](https://pypi.python.org/pypi/pip)
