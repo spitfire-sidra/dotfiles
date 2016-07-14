@@ -185,7 +185,7 @@ The version that I am using. Last commit: `55a3b3c26e`
 
 `,,w` jump between words
 
-`,n` to set nonumber
+`,l` to set nonumber
 
 [ultisnips](https://github.com/SirVer/ultisnips)
 

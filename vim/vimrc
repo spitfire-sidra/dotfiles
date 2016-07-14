@@ -124,7 +124,7 @@ nnoremap <leader><Right> :tabnext<CR>
 " }}}
 
 nnoremap <leader>c :noh<CR>
-nnoremap <leader>n :set norelativenumber<CR>:set nonu<CR>
+nnoremap <leader>l :set norelativenumber<CR>:set nonu<CR>
 
 " Vundle {{{
 
