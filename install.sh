@@ -26,6 +26,8 @@ cp -i ./my.cnf ${HOME}/.my.cnf
 
 cp -i ./pystartup ${HOME}/.pystartup
 
+cp -i ./curlrc ${HOME}/.curlrc
+
 if [ ! -d "${HOME}/.ssh/config" ]; then
     cp ./ssh/config ${HOME}/.ssh/config
 fi
