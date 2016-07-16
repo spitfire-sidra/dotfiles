@@ -28,6 +28,8 @@ cp -i ./pystartup ${HOME}/.pystartup
 
 cp -i ./curlrc ${HOME}/.curlrc
 
+cp -i ./wgetrc ${HOME}/.wgetrc
+
 if [ ! -d "${HOME}/.ssh/config" ]; then
     cp ./ssh/config ${HOME}/.ssh/config
 fi
