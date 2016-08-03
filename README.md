@@ -54,6 +54,8 @@
 
 - [pg-cli](https://github.com/dbcli/pgcli)
 
+- [swagger editor](https://github.com/swagger-api/swagger-editor)
+
 ```
 $ git clone https://github.com/milkbikis/powerline-shell
 $ cd powerline-shell
