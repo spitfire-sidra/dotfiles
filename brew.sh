@@ -4,6 +4,8 @@ brew update
 
 brew upgrade --all
 
+brew install coreutils
+
 # install parallel, pee, ts, sponge ...
 brew install moreutils
 
@@ -16,7 +18,8 @@ brew install binutils
 # install gnu `sed`, overwriting the built-in `sed`
 brew install gnu-sed --with-default-names
 
-brew install bash bash-completion2
+brew install bash
+brew install homebrew/versions/bash-completion2
 
 brew install zsh zsh-completions
 

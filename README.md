@@ -30,19 +30,11 @@
 
 - [jedi](https://github.com/davidhalter/jedi)
 
-- VIM 7.4 or later
-
-```
-# OS X
-$ brew install zsh-completions
-```
-
 - [bash-completion](http://bash-completion.alioth.debian.org/)
 
-```
-# OS X
-$ brew install bash-completion
-```
+- [Anaconda](https://docs.continuum.io/anaconda/)
+
+- VIM 7.4 or later
 
 ## Optional
 
@@ -78,8 +70,14 @@ HIST_STAMPS="yyyy-mm-dd"
 plugins=(git autopep8 autojump docker docker-compose django vundle virtualenv vim-interaction)
 ```
 
-## Installation
 
+## Install Mac OS X Only Tools
+
+```
+$ bash brew.sh
+```
+
+## Installation
 
 flake8
 
