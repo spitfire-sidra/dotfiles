@@ -56,6 +56,8 @@
 
 - [swagger editor](https://github.com/swagger-api/swagger-editor)
 
+- [scm breeze](https://github.com/scmbreeze/scm_breeze)
+
 ```
 $ git clone https://github.com/milkbikis/powerline-shell
 $ cd powerline-shell
