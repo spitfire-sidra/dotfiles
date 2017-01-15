@@ -234,7 +234,9 @@ autocmd InsertEnter * :set number
 autocmd InsertLeave * :set relativenumber
 
 " Extra user or machine specific settings {{{
-source ~/.vim/user.vim
+if filereadable(glob('~/.vim/user.vim'))
+    source ~/.vim/user.vim
+endif
 " " }}}
 
 "python with virtualenv support
