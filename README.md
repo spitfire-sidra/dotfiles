@@ -38,6 +38,8 @@
 
 ## Optional
 
+- [ShiftIt](https://github.com/fikovnik/ShiftIt)
+
 - [golang](https://golang.org/)
 
 - [Postgres.app (Mac OS X only)](http://postgresapp.com/)
