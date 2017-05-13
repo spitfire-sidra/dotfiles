@@ -141,6 +141,14 @@ nnoremap <leader>l :set norelativenumber<CR>:set nonu<CR>
 
 filetype off " required
 
+let hasvundle = 1
+let vundlevim = expand('~/.vim/bundle/Vundle.vim/README.md')
+if !filereadable(vundlevim)
+	silent !mkdir -p ~/.vim/bundle
+	silent !git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+	let hasvundle = 0
+endif
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -223,6 +231,10 @@ Plugin 'honza/vim-snippets'
 let g:UltiSnipsExpandTrigger="<leader><tab>"
 let g:UltiSnipsJumpForwardTrigger="<leader><tab>"
 let g:UltiSnipsJumpBackwardTrigger="<leader><s-tab>"
+
+if hasvundle == 0
+	:PluginInstall
+endif
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
