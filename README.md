@@ -32,6 +32,8 @@
 
 - [Anaconda](https://docs.continuum.io/anaconda/)
 
+- [Ansible](https://www.ansible.com/)
+
 - VIM 7.4 or later
 
 ## Optional
