@@ -10,7 +10,7 @@ cp -i ./git/gitignore ${HOME}/.gitignore
 cp -i ./git/git-completion.bash ${HOME}/.git-completion.bash
 
 mkdir -p ~/.zsh
-cp -i ./git/git-completion.zsh ${HOME}/.git-completion.zsh
+cp -i ./git/git-completion.zsh ${HOME}/.zsh/_git
 
 cp -i ./git/git-prompt.sh ${HOME}/.git-prompt.sh
 
@@ -40,6 +40,24 @@ CURRENT_PATH=${PWD}
 
 if [ ${SHELL} == "/bin/zsh" ]; then
     NEWLINE="source $CURRENT_PATH/zshrc"
+    if ! grep -Fxq "$NEWLINE" ~/.zshrc
+    then
+        echo $NEWLINE >> ~/.zshrc
+        source ~/.zshrc
+    fi
+fi
+
+if [ ${SHELL} == "/bin/zsh" ]; then
+    NEWLINE="fpath=(~/.zsh \$fpath)"
+    if ! grep -Fxq "$NEWLINE" ~/.zshrc
+    then
+        echo $NEWLINE >> ~/.zshrc
+        source ~/.zshrc
+    fi
+fi
+
+if [ ${SHELL} == "/bin/zsh" ]; then
+    NEWLINE="source ~/.git-prompt.sh"
     if ! grep -Fxq "$NEWLINE" ~/.zshrc
     then
         echo $NEWLINE >> ~/.zshrc

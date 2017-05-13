@@ -28,11 +28,6 @@ function mgrep()
     grep -s -n -r --binary-files=without-match --color "$@"
 }
 
-source ~/.git-prompt.sh
-zstyle ':completion:*:*:git:*' script ~/.git-completion.zsh
-
-fpath=(/usr/local/share/zsh-completions $fpath)
-
 # autojump
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
 
