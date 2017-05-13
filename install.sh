@@ -19,6 +19,8 @@ cp -i ./vim/gvimrc ${HOME}/.gvimrc
 
 cp -i ./ctags ${HOME}/.ctags
 
+cp -i ./editorconfig ${HOME}/.editorconfig
+
 mkdir -p ${HOME}/.vim/colors
 cp -i -r ./vim/colors ${HOME}/.vim/
 

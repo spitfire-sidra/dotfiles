@@ -150,6 +150,9 @@ Plugin 'gmarik/Vundle.vim'
 
 " plugins
 
+Plugin 'editorconfig/editorconfig-vim'
+let g:EditorConfig_exclude_patterns = ['fugitive://.*', 'scp://.*']
+
 "Plugin 'tmhedberg/SimpylFold'
 "let g:SimpylFold_docstring_preview = 1
 
