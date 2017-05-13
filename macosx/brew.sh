@@ -43,6 +43,13 @@ brew install vbindiff
 
 brew install imagemagick --with-webp
 
+brew install ripgrep
+
+# nodejs
+brew install nodejs
+brew install npm
+brew install webpack
+
 # enhance quick look
 brew cask install qlcolorcode
 brew cask install qlstephen
