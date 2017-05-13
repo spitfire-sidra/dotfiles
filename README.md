@@ -12,8 +12,6 @@
 
 - [Jupyter](http://jupyter.org/)
 
-- [bpython](https://github.com/bpython/bpython)
-
 - [pip](https://pypi.python.org/pypi/pip)
 
 - [ctags](http://ctags.sourceforge.net/)
