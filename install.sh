@@ -17,7 +17,7 @@ cp -i ./git/git-prompt.sh ${HOME}/.git-prompt.sh
 cp -i ./vim/vimrc ${HOME}/.vimrc
 cp -i ./vim/gvimrc ${HOME}/.gvimrc
 
-mkir -p ${HOME}/.config/nvim
+mkdir -p ${HOME}/.config/nvim
 cp -i ./nvim/init.vim ${HOME}/.config/nvim/init.vim
 
 cp -i ./ctags ${HOME}/.ctags
