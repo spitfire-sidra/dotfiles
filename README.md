@@ -223,6 +223,10 @@ The version that I am using. Last commit: `55a3b3c26e`
 
 `Ctrl + O` autocomplete
 
+## Neovim
+
+`,tm` vim table mode
+
 ## Customized vimrc
 
 name it `user.vim` and put it under the following folder
