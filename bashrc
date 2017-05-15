@@ -16,6 +16,7 @@ alias gp='fgrep -R -n -I --colour=always'
 alias g='git'
 complete -o default -o nospace -F _git g
 alias v='vim'
+alias n='nvim'
 
 # unset some env variables
 unset LC_CTYPE
