@@ -137,6 +137,10 @@ The version that I am using. Last commit: `55a3b3c26e`
     set tags=/path/to/ctags/file
     ```
 
+## [Emmet](https://github.com/mattn/emmet-vim)
+
+`Crtl-y-,` to expand abbreviations
+
 ## Vim Cheatsheet
 
 `Ctrl-j` move to the split below
