@@ -1,8 +1,3 @@
-# golang
-if [ -d "/usr/local/go/bin" ]; then
-    export PATH=$PATH:/usr/local/go/bin
-fi
-
 # Postgres.app
 if [ -d "/Applications/Postgres.app/Contents/Versions/9.4/bin" ]; then
     export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
@@ -37,4 +32,10 @@ if [ -d $HOME/.zshrc.d ]; then
   for file in $HOME/.zshrc.d/*.zsh; do
     source $file
   done
+fi
+
+# golang
+if [ -d "/usr/local/go/bin" ]; then
+    export GOPATH=/usr/local/go/bin/
+    export PATH=$GOPATH:$GOPATH/bin:$PATH
 fi
