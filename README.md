@@ -36,6 +36,8 @@
 
 - VIM 7.4 or later
 
+- [fzf](https://github.com/junegunn/fzf)
+
 ## Optional
 
 - [ShiftIt](https://github.com/fikovnik/ShiftIt)
