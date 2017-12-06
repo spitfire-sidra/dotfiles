@@ -40,6 +40,12 @@
 
 ## Optional
 
+- [Sequel Pro](https://www.sequelpro.com/)
+
+- [ActivityWatch](https://github.com/ActivityWatch/activitywatch)
+
+- [Alfred](https://www.alfredapp.com/)
+
 - [ShiftIt](https://github.com/fikovnik/ShiftIt)
 
 - [golang](https://golang.org/)
