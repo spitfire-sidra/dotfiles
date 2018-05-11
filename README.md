@@ -46,11 +46,19 @@
 
 - [Alfred](https://www.alfredapp.com/)
 
+- [Bear](http://www.bear-writer.com/)
+
 - [ShiftIt](https://github.com/fikovnik/ShiftIt)
 
 - [golang](https://golang.org/)
 
 - [Postgres.app (Mac OS X only)](http://postgresapp.com/)
+
+- [Postico](https://eggerapps.at/postico/)
+
+- [Paste](https://pasteapp.me/)
+
+- [EasyDrop](https://itunes.apple.com/app/easydrop/id1362416136)
 
 - [Docker Toolbox](https://www.docker.com/docker-toolbox)
 
@@ -75,6 +83,24 @@ $ cp config.py.dist config.py
 $ ./install.py
 $ ln -s <path/to/powerline-shell.py> ~/powerline-shell.py
 ```
+
+### Recommended Chrome Plugins
+
+- [OneTab](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall)
+
+- [EditThisCookie](http://www.editthiscookie.com/)
+
+- [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg)
+
+- [Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca)
+
+- [JSON viewer](https://github.com/tulios/json-viewer)
+
+- [LastPass](https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd)
+
+- [Google Webspam Report](https://chrome.google.com/webstore/detail/google-webspam-report-by/efinmbicabejjhjafeidhfbojhnfiepj)
+
+- [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)
 
 ### oh-my-zsh settings
 
