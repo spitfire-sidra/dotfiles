@@ -40,29 +40,19 @@
 
 ## Optional
 
-- [Sequel Pro](https://www.sequelpro.com/)
+- [VSCode](https://code.visualstudio.com/)
+
+- [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
 - [ActivityWatch](https://github.com/ActivityWatch/activitywatch)
 
-- [Alfred](https://www.alfredapp.com/)
-
-- [Bear](http://www.bear-writer.com/)
-
-- [ShiftIt](https://github.com/fikovnik/ShiftIt)
-
 - [golang](https://golang.org/)
-
-- [Postgres.app (Mac OS X only)](http://postgresapp.com/)
-
-- [Postico](https://eggerapps.at/postico/)
-
-- [Paste](https://pasteapp.me/)
-
-- [EasyDrop](https://itunes.apple.com/app/easydrop/id1362416136)
 
 - [Docker Toolbox](https://www.docker.com/docker-toolbox)
 
 - [pydiction (vim autocomplete plugin for python)](https://github.com/rkulla/pydiction)
+
+- [aws-cli](https://github.com/aws/aws-cli)
 
 - [aws-shell](https://github.com/awslabs/aws-shell)
 
@@ -83,6 +73,30 @@ $ cp config.py.dist config.py
 $ ./install.py
 $ ln -s <path/to/powerline-shell.py> ~/powerline-shell.py
 ```
+
+### macOS X Apps
+
+- [Sequel Pro](https://www.sequelpro.com/)
+
+- [Alfred](https://www.alfredapp.com/)
+
+- [Postgres.app (Mac OS X only)](http://postgresapp.com/)
+
+- [Postico](https://eggerapps.at/postico/)
+
+- [Paste](https://pasteapp.me/)
+
+- [EasyDrop](https://itunes.apple.com/app/easydrop/id1362416136)
+
+- [Bear](http://www.bear-writer.com/)
+
+- [ShiftIt](https://github.com/fikovnik/ShiftIt)
+
+- [Shuttle](http://fitztrev.github.io/shuttle/)
+
+- [Gifrocket](http://www.gifrocket.com/)
+
+- [Postman](https://www.getpostman.com/)
 
 ### Recommended Chrome Plugins
 
