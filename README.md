@@ -1,12 +1,22 @@
-## Prerequisite
+## macOS Prerequisite
+
+- Xcode
 
 - [iTerm2](http://iterm2.com/)
 
-- [solarized](http://ethanschoonover.com/solarized)
-
-- [Patched fonts for Powerline users](https://github.com/powerline/fonts)
+- [Homebrew](https://brew.sh/)
 
 - [oh my zsh](http://ohmyz.sh/)
+
+- [Anaconda](https://docs.continuum.io/anaconda/)
+
+## Prerequisite
+
+- [solarized](http://ethanschoonover.com/solarized)
+
+- [fzf](https://github.com/junegunn/fzf)
+
+- [Patched fonts for Powerline users](https://github.com/powerline/fonts)
 
 - [python](https://www.python.org/)
 
@@ -30,13 +40,9 @@
 
 - [bash-completion](http://bash-completion.alioth.debian.org/)
 
-- [Anaconda](https://docs.continuum.io/anaconda/)
-
 - [Ansible](https://www.ansible.com/)
 
 - VIM 7.4 or later
-
-- [fzf](https://github.com/junegunn/fzf)
 
 ## Optional
 
