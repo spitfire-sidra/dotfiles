@@ -1,8 +1,3 @@
-# Postgres.app
-if [ -d "/Applications/Postgres.app/Contents/Versions/9.4/bin" ]; then
-    export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
-fi
-
 export EDITOR='vim'
 
 # python
@@ -39,3 +34,6 @@ if [ -d "/usr/local/go/bin" ]; then
     export GOPATH=/usr/local/go/bin/
     export PATH=$GOPATH:$GOPATH/bin:$PATH
 fi
+
+# fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
