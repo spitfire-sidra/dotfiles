@@ -37,6 +37,7 @@ brew install p7zip
 brew install pigz
 brew install pv
 brew install rename
+brew install htop
 
 # visual binary diff
 brew install vbindiff
