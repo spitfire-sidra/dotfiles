@@ -18,9 +18,7 @@
 
 - [Patched fonts for Powerline users](https://github.com/powerline/fonts)
 
-- [python](https://www.python.org/)
-
-- [Jupyter](http://jupyter.org/)
+- [Python](https://www.python.org/)
 
 - [pip](https://pypi.python.org/pypi/pip)
 
@@ -54,7 +52,7 @@
 
 - [golang](https://golang.org/)
 
-- [Docker Toolbox](https://www.docker.com/docker-toolbox)
+- [Docker CE](https://www.docker.com/community-edition)
 
 - [pydiction (vim autocomplete plugin for python)](https://github.com/rkulla/pydiction)
 
