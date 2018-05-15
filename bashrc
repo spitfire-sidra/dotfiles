@@ -23,7 +23,7 @@ unset LC_CTYPE
 
 function mgrep()
 {
-    grep -s -n -r --binary-files=without-match --color "$@"
+    grep -s -n -r --binary-files=without-match --color=always "$@" | awk -F: '{print $1" +"$2" "$3}'
 }
 
 function extract()      # Handy Extract Program
