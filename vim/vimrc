@@ -149,6 +149,15 @@ if !filereadable(vundlevim)
 	let hasvundle = 0
 endif
 
+" vim-go
+let hasvimgo = 1
+let vimgo = expand('~/.vim/pack/plugins/start/vim-go/README.md')
+if !filereadable(vimgo)
+    silent !mkdir -p ~/.vim/pack/plugins/start/
+    silent !git clone https://github.com/fatih/vim-go.git ~/.vim/pack/plugins/start/vim-go
+    let hasvimgo = 0
+endif
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()

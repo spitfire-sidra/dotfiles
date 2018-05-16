@@ -40,7 +40,7 @@
 
 - [Ansible](https://www.ansible.com/)
 
-- VIM 7.4 or later
+- VIM 8.0 or later
 
 ## Optional
 
