@@ -23,7 +23,7 @@ set cursorline
 set cursorcolumn
 
 " config mouse
-set mouse=r
+set mouse=nicr
 
 set nocompatible
 set modelines=0
