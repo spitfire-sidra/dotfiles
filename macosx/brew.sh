@@ -29,6 +29,7 @@ brew install vim --override-system-vi
 
 # install other useful binaries
 brew install ack
+brew install the_silver_searcher
 brew install git
 brew install ssh-copy-id
 brew install testssl
