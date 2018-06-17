@@ -10,6 +10,8 @@
 
 - [Anaconda](https://docs.continuum.io/anaconda/)
 
+- [direnv](https://direnv.net/)
+
 ## Prerequisite
 
 - [solarized](http://ethanschoonover.com/solarized)
