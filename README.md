@@ -92,7 +92,7 @@ $ ln -s <path/to/powerline-shell.py> ~/powerline-shell.py
 
 - [Paste](https://pasteapp.me/)
 
-- [EasyDrop](https://itunes.apple.com/app/easydrop/id1362416136)
+- [Dropa](https://itunes.apple.com/app/easydrop/id1362416136)
 
 - [Bear](http://www.bear-writer.com/)
 
