@@ -65,3 +65,4 @@ brew cask install suspicious-package
 
 brew cleanup
 
+brew install ctags

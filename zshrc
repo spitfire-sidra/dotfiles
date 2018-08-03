@@ -39,3 +39,8 @@ fi
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 eval "$(direnv hook zsh)"
+
+if [[ `uname` == 'Darwin' ]]
+then
+    alias ctags="`brew --prefix`/bin/ctags"
+fi
