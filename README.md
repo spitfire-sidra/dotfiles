@@ -86,6 +86,8 @@ $ ln -s <path/to/powerline-shell.py> ~/powerline-shell.py
 
 - [Alfred](https://www.alfredapp.com/)
 
+- [Duet](https://www.duetdisplay.com/)
+
 - [Postgres.app (Mac OS X only)](http://postgresapp.com/)
 
 - [Postico](https://eggerapps.at/postico/)
