@@ -1,4 +1,4 @@
--python-kinds=-i
+--python-kinds=-i
 --exclude=*/data/*
 --exclude=*/build/*
 --exclude=*/media/*
