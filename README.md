@@ -68,6 +68,8 @@
 
 - [pg-cli](https://github.com/dbcli/pgcli)
 
+- [Karabiner](https://pqrs.org/osx/karabiner/)
+
 - [swagger editor](https://github.com/swagger-api/swagger-editor)
 
 - [scm breeze](https://github.com/scmbreeze/scm_breeze)
