@@ -39,6 +39,7 @@ brew install pigz
 brew install pv
 brew install rename
 brew install htop
+brew install telnet
 
 # visual binary diff
 brew install vbindiff
