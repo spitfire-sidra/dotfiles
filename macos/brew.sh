@@ -67,3 +67,6 @@ brew cask install suspicious-package
 brew cleanup
 
 brew install ctags
+
+brew install fzf
+brew install fd
