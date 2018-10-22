@@ -109,6 +109,9 @@ nnoremap <leader>U viwU<esc>
 " Lower case
 nnoremap <leader>u viwu<esc>
 
+" fzf
+nnoremap <leader>f :Files<cr>
+
 " Move a line of text using ALT+[jk]
 nmap <A-j> :.m.+1<CR>
 nmap <A-k> :.m.-2<CR>
@@ -176,6 +179,7 @@ call plug#begin('~/.vim/plugged')
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 let g:fzf_history_dir = '~/.local/share/fzf-history'
+command! -bang -nargs=? -complete=dir Files call fzf#vim#files(<q-args>, fzf#vim#with_preview(), <bang>0)
 
 call plug#end()
 
