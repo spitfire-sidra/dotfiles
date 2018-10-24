@@ -58,3 +58,6 @@ Thumbs.db
 # Editor generated files
 *.swp
 *~
+
+# direnv
+.envrc
