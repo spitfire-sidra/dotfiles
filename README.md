@@ -141,7 +141,7 @@ Just put bash/zsh rc files in `~/.bashrc.d` / `~/.zshrc.d`
     set tags=/path/to/ctags/file
     ```
 
-## My shortcuts
+## My Vim shortcuts
 
 ### [Emmet](https://github.com/mattn/emmet-vim)
 
