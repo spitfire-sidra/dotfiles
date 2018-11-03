@@ -80,7 +80,7 @@ let maplocalleader="\\"
 set background=dark
 set scrolloff=5
 
-colorscheme solarized
+colorscheme molokai
 
 " set background to black
 highlight Normal ctermfg=grey ctermbg=black
@@ -111,6 +111,10 @@ nnoremap <leader>u viwu<esc>
 
 " fzf
 nnoremap <leader>f :Files<cr>
+
+" Disable F1 help
+map <F1> <Esc>
+imap <F1> <Esc>
 
 " Move a line of text using ALT+[jk]
 nmap <A-j> :.m.+1<CR>
@@ -172,7 +176,6 @@ endif
 autocmd BufWritePre *.go GoImports
 autocmd BufWritePre *.go GoFmt
 
-
 " vim-plug
 call plug#begin('~/.vim/plugged')
 
@@ -182,7 +185,6 @@ let g:fzf_history_dir = '~/.local/share/fzf-history'
 command! -bang -nargs=? -complete=dir Files call fzf#vim#files(<q-args>, fzf#vim#with_preview(), <bang>0)
 
 call plug#end()
-
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -290,3 +292,5 @@ if filereadable(glob('~/.vim/user.vim'))
     source ~/.vim/user.vim
 endif
 " " }}}
+
+set rtp+=/usr/local/opt/fzf
