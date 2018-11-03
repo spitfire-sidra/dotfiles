@@ -3,38 +3,48 @@
 # show progress
 set -x
 
+# setup tmux config
 cp -i ./tmux/tmux.conf ${HOME}/.tmux.conf
 
+# setup git env
 cp -i ./git/gitconfig ${HOME}/.gitconfig
 cp -i ./git/gitignore ${HOME}/.gitignore
-cp -i ./git/git-completion.bash ${HOME}/.git-completion.bash
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash > ${HOME}/.git-completion.bash
+curl https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh > ${HOME}/.git-prompt.sh
 
+# setup zsh env
 mkdir -p ~/.zsh
-cp -i ./git/git-completion.zsh ${HOME}/.zsh/_git
+curl https://github.com/git/git/blob/master/contrib/completion/git-completion.zsh > ${HOME}/.zsh/_git
 
-cp -i ./git/git-prompt.sh ${HOME}/.git-prompt.sh
+# common editor configs
+# https://editorconfig.org/
+cp -i ./editorconfig ${HOME}/.editorconfig
 
+# setup vim & gvim env
 cp -i ./vim/vimrc ${HOME}/.vimrc
 cp -i ./vim/gvimrc ${HOME}/.gvimrc
 
+# setup nvim env
 mkdir -p ${HOME}/.config/nvim
 cp -i ./nvim/init.vim ${HOME}/.config/nvim/init.vim
-
-cp -i ./ctags ${HOME}/.ctags
-
-cp -i ./editorconfig ${HOME}/.editorconfig
 
 mkdir -p ${HOME}/.vim/colors
 cp -i -r ./vim/colors ${HOME}/.vim/
 
+# setup ctags config
+cp -i ./ctags ${HOME}/.ctags
+
+# mysql rc files
 cp -i ./my.cnf ${HOME}/.my.cnf
 
+# setup python rc files
 cp -i ./pystartup ${HOME}/.pystartup
 
+# setup curl & wget rc files
 cp -i ./curlrc ${HOME}/.curlrc
-
 cp -i ./wgetrc ${HOME}/.wgetrc
 
+# setup ssh config
 if [ ! -d "${HOME}/.ssh/config" ]; then
     cp ./ssh/config ${HOME}/.ssh/config
 fi
@@ -73,6 +83,8 @@ if [ ${SHELL} == "/bin/bash" ]; then
     NEWLINE="source $CURRENT_PATH/bashrc"
     if ! grep -Fxq "$NEWLINE" ~/.bashrc
     then
+        mkdir -p $HOME/.bashrc.d
+        cp -r ./bashrc.d/* $HOME/.bashrc.d
         echo $NEWLINE >> ~/.bashrc
         source ~/.bashrc
     fi

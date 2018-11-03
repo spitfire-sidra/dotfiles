@@ -17,18 +17,15 @@ brew install binutils
 
 # install gnu `sed`, overwriting the built-in `sed`
 brew install gnu-sed --with-default-names
-
 brew install bash
 brew install homebrew/versions/bash-completion2
-
 brew install zsh zsh-completions
-
 brew install wget --with-iri
-
 brew install vim --override-system-vi
 
 # install other useful binaries
 brew install ack
+# ag
 brew install the_silver_searcher
 brew install git
 brew install ssh-copy-id
@@ -40,6 +37,14 @@ brew install pv
 brew install rename
 brew install htop
 brew install telnet
+# replace built-in ctags
+brew install ctags
+brew install fzf
+brew install autojump
+brew install fd
+brew install jq
+brew install tmux
+brew install direnv
 
 # visual binary diff
 brew install vbindiff
@@ -64,9 +69,5 @@ brew cask install betterzipql
 brew cask install webpquicklook
 brew cask install suspicious-package
 
+# final step
 brew cleanup
-
-brew install ctags
-
-brew install fzf
-brew install fd

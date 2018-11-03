@@ -1,130 +1,58 @@
-## macOS Prerequisite
+## Common Prerequisites
 
-- Xcode
+### Languages
 
-- [iTerm2](http://iterm2.com/)
+- [Golang](https://golang.org/)
+- [Python 3](https://www.python.org/)
+- [Node.js](https://nodejs.org/en/)
 
-- [Homebrew](https://brew.sh/)
-
-- [oh my zsh](http://ohmyz.sh/)
-
-- [Anaconda](https://docs.continuum.io/anaconda/)
-
-- [direnv](https://direnv.net/)
-
-## Prerequisite
-
-- [solarized](http://ethanschoonover.com/solarized)
-
-- [fzf](https://github.com/junegunn/fzf)
-
-- [Patched fonts for Powerline users](https://github.com/powerline/fonts)
-
-- [Python](https://www.python.org/)
-
-- [pip](https://pypi.python.org/pypi/pip)
-
-- [ctags](http://ctags.sourceforge.net/)
-
-- [autojump](https://github.com/joelthelion/autojump)
-
-- [jq](https://stedolan.github.io/jq/)
-
-- [ag](https://github.com/ggreer/the_silver_searcher)
-
-- [tmuxinator](https://github.com/tmuxinator/tmuxinator)
-
-- [zsh-completions](https://github.com/zsh-users/zsh-completions)
-
-- [jedi](https://github.com/davidhalter/jedi)
-
-- [bash-completion](http://bash-completion.alioth.debian.org/)
-
-- [Ansible](https://www.ansible.com/)
+### Editors
 
 - VIM 8.0 or later
-
-## Optional
-
 - [VSCode](https://code.visualstudio.com/)
 
-- [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-
-- [ActivityWatch](https://github.com/ActivityWatch/activitywatch)
-
-- [golang](https://golang.org/)
+### Docker
 
 - [Docker CE](https://www.docker.com/community-edition)
 
-- [pydiction (vim autocomplete plugin for python)](https://github.com/rkulla/pydiction)
+### Fonts
 
-- [aws-cli](https://github.com/aws/aws-cli)
+- [Patched fonts for Powerline users](https://github.com/powerline/fonts)
 
-- [aws-shell](https://github.com/awslabs/aws-shell)
+## Ubuntu / Debian
 
-- [Powerline-shell](https://github.com/milkbikis/powerline-shell)
+### Prerequisites
 
-- [mysql-cli](https://github.com/dbcli/mycli)
+- [jedi](https://github.com/davidhalter/jedi)
 
-- [pg-cli](https://github.com/dbcli/pgcli)
-
-- [Karabiner](https://pqrs.org/osx/karabiner/)
-
-- [swagger editor](https://github.com/swagger-api/swagger-editor)
-
-- [scm breeze](https://github.com/scmbreeze/scm_breeze)
+### Install packages via apt-get
 
 ```
-$ git clone https://github.com/milkbikis/powerline-shell
-$ cd powerline-shell
-$ cp config.py.dist config.py
-$ ./install.py
-$ ln -s <path/to/powerline-shell.py> ~/powerline-shell.py
+$ bash debian_ubuntu/apt.sh
 ```
 
-### macOS X Apps
+### Install packages via linuxbrew
 
-- [Sequel Pro](https://www.sequelpro.com/)
+```
+$ bash debian_ubuntu/linuxbrew.sh
+```
 
-- [Alfred](https://www.alfredapp.com/)
+## macOS
 
-- [Duet](https://www.duetdisplay.com/)
+### Prerequisites
 
-- [Postgres.app (Mac OS X only)](http://postgresapp.com/)
+- Xcode
+- [Anaconda](https://docs.continuum.io/anaconda/)
+- [Chrome](https://www.google.com/intl/zh-TW_ALL/chrome/)
+- [Homebrew](https://brew.sh/)
+- [Oh My ZSH!](http://ohmyz.sh/)
+- [iTerm2](http://iterm2.com/)
 
-- [Postico](https://eggerapps.at/postico/)
+### Install tools via brew
 
-- [Paste](https://pasteapp.me/)
-
-- [Dropa](https://itunes.apple.com/app/easydrop/id1362416136)
-
-- [Bear](http://www.bear-writer.com/)
-
-- [ShiftIt](https://github.com/fikovnik/ShiftIt)
-
-- [Shuttle](http://fitztrev.github.io/shuttle/)
-
-- [Gifrocket](http://www.gifrocket.com/)
-
-- [Postman](https://www.getpostman.com/)
-
-### Recommended Chrome Plugins
-
-- [OneTab](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall)
-
-- [EditThisCookie](http://www.editthiscookie.com/)
-
-- [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg)
-
-- [Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca)
-
-- [JSON viewer](https://github.com/tulios/json-viewer)
-
-- [LastPass](https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd)
-
-- [Google Webspam Report](https://chrome.google.com/webstore/detail/google-webspam-report-by/efinmbicabejjhjafeidhfbojhnfiepj)
-
-- [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)
+```
+$ bash macOS/homebrew.sh
+```
 
 ### oh-my-zsh settings
 
@@ -134,29 +62,53 @@ HIST_STAMPS="yyyy-mm-dd"
 plugins=(git autopep8 autojump docker docker-compose django vundle virtualenv vim-interaction)
 ```
 
+### macOS Apps
 
-## Install Mac OS X Only Tools
+- [Alfred](https://www.alfredapp.com/)
+- [Bear](http://www.bear-writer.com/)
+- [Contexts](https://contexts.co/)
+- [Dropa](https://itunes.apple.com/app/easydrop/id1362416136)
+- [Dropbox](https://www.dropbox.com/)
+- [Duet](https://www.duetdispla.com/)
+- [Gifrocket](http://www.gifrocket.com/)
+- [MacDown](https://macdown.uranusjr.com/)
+- [Paste](https://pasteapp.me/)
+- [Postgres.app](http://postgresapp.com/)
+- [Postico](https://eggerapps.at/postico/)
+- [Postman](https://www.getpostman.com/)
+- [Sequel Pro](https://www.sequelpro.com/)
+- [ShiftIt](https://github.com/fikovnik/ShiftIt)
+- [Shuttle](http://fitztrev.github.io/shuttle/)
+
+## Chrome
+
+### Extensions
+
+- [EditThisCookie](http://www.editthiscookie.com/)
+- [Google Webspam Report](https://chrome.google.com/webstore/detail/google-webspam-report-by/efinmbicabejjhjafeidhfbojhnfiepj)
+- [JSON viewer](https://github.com/tulios/json-viewer)
+- [LastPass](https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd)
+- [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)
+- [Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca)
+- [OneTab](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall)
+- [Page Analytics](https://chrome.google.com/webstore/detail/page-analytics-by-google/fnbdnhhicmebfgdgglcdacdapkcihcoh)
+- [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg)
+- [Vue.js devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
+
+## Install python packages via pip
 
 ```
-$ bash brew.sh
+$ pip install -r pip/requirements.txt
 ```
 
-## Installation
-
-flake8
-
-```
-$ pip install flake8
-```
-
-My dotfiles
+## Install dotfiles
 
 ```
 $ chmod +x install.sh
 $ ./install.sh
 ```
 
-Git Configurations
+## Git Configurations
 
 ```
 git config --global user.name "Your Name Here"
@@ -165,23 +117,17 @@ git config --global core.editor "Your favorite text editor"
 git config --global core.excludesfile '~/.gitignore'
 ```
 
+## Misc
+
 ### Customized bash/zsh rc files
 
 Just put bash/zsh rc files in `~/.bashrc.d` / `~/.zshrc.d`
 
-## Install vim plugins using Vundle
+### Install vim plugins using Vundle & vim-plug
 
-* Launch vim and run `:PluginInstall`
+* Launch vim and run `:PluginInstall` `:PlugInstall`
 
-or
-
-* To install from command line: `vim +PluginInstall +qall`
-
-## Git completion
-
-The version that I am using. Last commit: `55a3b3c26e`
-
-## Programming with ctags
+### How to programming with ctags
 
 1. To generate ctags file
 
@@ -195,11 +141,13 @@ The version that I am using. Last commit: `55a3b3c26e`
     set tags=/path/to/ctags/file
     ```
 
-## [Emmet](https://github.com/mattn/emmet-vim)
+## My shortcuts
+
+### [Emmet](https://github.com/mattn/emmet-vim)
 
 `Crtl-y-,` to expand abbreviations
 
-## Vim Cheatsheet
+### Vim shortcuts
 
 `Ctrl-j` move to the split below
 
@@ -255,11 +203,17 @@ The version that I am using. Last commit: `55a3b3c26e`
 
 `,l` to set nonumber
 
-[ultisnips](https://github.com/SirVer/ultisnips)
+### [ultisnips](https://github.com/SirVer/ultisnips)
 
 `,tab` ultisnips
 
-[easymotion](https://github.com/easymotion/vim-easymotion)
+### [easymotion](https://github.com/easymotion/vim-easymotion)
+
+`s` 1 character search
+
+`ss` 2 characters search
+
+### [vim-fugitive](https://github.com/tpope/vim-fugitive)
 
 `,gd` git diff
 
@@ -267,35 +221,52 @@ The version that I am using. Last commit: `55a3b3c26e`
 
 `,gb` git blame
 
-[vim-fugitive](https://github.com/tpope/vim-fugitive)
+### [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
 
-[vim-gitgutter](https://github.com/airblade/vim-gitgutter)
+`,hp` preview
 
-`s` 1 character search
+`,hu` undo
 
-`ss` 2 characters search
+`,hs` stage
 
-[CtrlP](http://kien.github.io/ctrlp.vim/)
+### [CtrlP](http://kien.github.io/ctrlp.vim/)
 
-[Tabular](https://github.com/godlygeek/tabular)
+`Ctrl + p`
+
+### [Tabular](https://github.com/godlygeek/tabular)
 
 `:Tab /:` or `:Tab /|` or `:Tab /=`
 
-[jedi-vim](https://github.com/davidhalter/jedi-vim)
+### [jedi-vim](https://github.com/davidhalter/jedi-vim)
 
 `Ctrl + O` autocomplete
 
-## Neovim
+## Extends vimrc
+
+Create a file with name `user.vim` and put it under the following folder:
+
+```
+$ mv user.vim ~/.vim/
+```
+
+## Neovim shortcuts
 
 `,tm` vim table mode
 
-## Customized vimrc
+## Optional
 
-name it `user.vim` and put it under the following folder
-
-```
-~/.vim/
-```
+- [ActivityWatch](https://github.com/ActivityWatch/activitywatch)
+- [Ansible](https://www.ansible.com/)
+- [Cloud SDK](https://cloud.google.com/sdk/)
+- [Karabiner](https://pqrs.org/osx/karabiner/)
+- [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+- [aws-cli](https://github.com/aws/aws-cli)
+- [aws-shell](https://github.com/awslabs/aws-shell)
+- [mysql-cli](https://github.com/dbcli/mycli)
+- [pg-cli](https://github.com/dbcli/pgcli)
+- [pydiction](https://github.com/rkulla/pydiction) (Vim autocomplete plugin for python)
+- [scm breeze](https://github.com/scmbreeze/scm_breeze)
+- [swagger editor](https://github.com/swagger-api/swagger-editor)
 
 ## Recommended fonts for terminal
 
