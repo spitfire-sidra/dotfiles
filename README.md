@@ -229,6 +229,10 @@ Just put bash/zsh rc files in `~/.bashrc.d` / `~/.zshrc.d`
 
 `,hs` stage
 
+### [fzf.vim](https://github.com/junegunn/fzf.vim)
+
+`,f` list files
+
 ### [CtrlP](http://kien.github.io/ctrlp.vim/)
 
 `Ctrl + p`
