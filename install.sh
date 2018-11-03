@@ -10,11 +10,11 @@ cp -i ./tmux/tmux.conf ${HOME}/.tmux.conf
 cp -i ./git/gitconfig ${HOME}/.gitconfig
 cp -i ./git/gitignore ${HOME}/.gitignore
 curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash > ${HOME}/.git-completion.bash
-curl https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh > ${HOME}/.git-prompt.sh
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh > ${HOME}/.git-prompt.sh
 
 # setup zsh env
 mkdir -p ~/.zsh
-curl https://github.com/git/git/blob/master/contrib/completion/git-completion.zsh > ${HOME}/.zsh/_git
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.zsh > ${HOME}/.zsh/_git
 
 # common editor configs
 # https://editorconfig.org/
