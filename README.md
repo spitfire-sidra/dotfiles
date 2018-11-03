@@ -253,7 +253,7 @@ $ mv user.vim ~/.vim/
 
 `,tm` vim table mode
 
-## Optional
+## Optional Tools
 
 - [ActivityWatch](https://github.com/ActivityWatch/activitywatch)
 - [Ansible](https://www.ansible.com/)
