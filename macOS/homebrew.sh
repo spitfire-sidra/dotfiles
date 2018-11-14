@@ -45,6 +45,7 @@ brew install fd
 brew install jq
 brew install tmux
 brew install direnv
+brew install mycli
 
 # visual binary diff
 brew install vbindiff

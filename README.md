@@ -266,7 +266,6 @@ $ mv user.vim ~/.vim/
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 - [aws-cli](https://github.com/aws/aws-cli)
 - [aws-shell](https://github.com/awslabs/aws-shell)
-- [mysql-cli](https://github.com/dbcli/mycli)
 - [MySQL Workbench](https://www.mysql.com/products/workbench/)
 - [pg-cli](https://github.com/dbcli/pgcli)
 - [pydiction](https://github.com/rkulla/pydiction) (Vim autocomplete plugin for python)

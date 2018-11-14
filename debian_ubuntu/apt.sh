@@ -10,4 +10,4 @@ fi
 apt-get update
 apt-get install build-essential tmux jq silversearcher-ag ctags
 apt-get install vim git bash-completion python3.6 python3-pip
-apt-get install curl file autojump
+apt-get install curl file autojump mycli
