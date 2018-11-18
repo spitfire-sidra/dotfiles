@@ -79,6 +79,10 @@ plugins=(git autopep8 autojump docker docker-compose django vundle virtualenv vi
 - [Sequel Pro](https://www.sequelpro.com/)
 - [ShiftIt](https://github.com/fikovnik/ShiftIt)
 - [Shuttle](http://fitztrev.github.io/shuttle/)
+- [AppCleaner](https://freemacsoft.net/appcleaner/)
+- [Unclutter](https://itunes.apple.com/us/app/unclutter/id577085396)
+- [DaisyDisk](https://itunes.apple.com/us/app/daisydisk/id411643860)
+
 
 ## Chrome
 
