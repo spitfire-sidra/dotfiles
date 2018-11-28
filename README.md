@@ -65,12 +65,16 @@ plugins=(git autopep8 autojump docker docker-compose django vundle virtualenv vi
 ### macOS Apps
 
 - [Alfred](https://www.alfredapp.com/)
+- [AppCleaner](https://freemacsoft.net/appcleaner/)
 - [Bear](http://www.bear-writer.com/)
+- [CheatSheet](https://mediaatelier.com/CheatSheet/)
 - [Contexts](https://contexts.co/)
+- [DaisyDisk](https://itunes.apple.com/us/app/daisydisk/id411643860)
 - [Dropa](https://itunes.apple.com/app/easydrop/id1362416136)
 - [Dropbox](https://www.dropbox.com/)
 - [Duet](https://www.duetdispla.com/)
 - [Gifrocket](http://www.gifrocket.com/)
+- [Itsycal](https://www.mowglii.com/itsycal/)
 - [MacDown](https://macdown.uranusjr.com/)
 - [Paste](https://pasteapp.me/)
 - [Postgres.app](http://postgresapp.com/)
@@ -79,9 +83,7 @@ plugins=(git autopep8 autojump docker docker-compose django vundle virtualenv vi
 - [Sequel Pro](https://www.sequelpro.com/)
 - [ShiftIt](https://github.com/fikovnik/ShiftIt)
 - [Shuttle](http://fitztrev.github.io/shuttle/)
-- [AppCleaner](https://freemacsoft.net/appcleaner/)
 - [Unclutter](https://itunes.apple.com/us/app/unclutter/id577085396)
-- [DaisyDisk](https://itunes.apple.com/us/app/daisydisk/id411643860)
 
 
 ## Chrome
