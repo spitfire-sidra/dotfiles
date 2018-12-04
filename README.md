@@ -43,6 +43,7 @@ $ bash debian_ubuntu/linuxbrew.sh
 
 - Xcode
 - [Anaconda](https://docs.continuum.io/anaconda/)
+- [Jupyter notebook extensions](https://github.com/ipython-contrib/jupyter_contrib_nbextensions)
 - [Chrome](https://www.google.com/intl/zh-TW_ALL/chrome/)
 - [Homebrew](https://brew.sh/)
 - [Oh My ZSH!](http://ohmyz.sh/)
