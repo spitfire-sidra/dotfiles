@@ -20,8 +20,14 @@ del os, histfile
 # Useful modules
 import json
 import time
-import datetime
-import pprint
+import uuid
+import random
+
+from decimal import Decimal
+from pprint import pprint
+from datetime import datetime
+from datetime import timedelta
+from collections import OrderedDict
 
 
 class Pipe(object):
