@@ -68,6 +68,7 @@ plugins=(git autopep8 autojump docker docker-compose django vundle virtualenv vi
 
 - [Alfred](https://www.alfredapp.com/)
 - [AppCleaner](https://freemacsoft.net/appcleaner/)
+- [Aware](https://itunes.apple.com/tw/app/aware/id1082170746?mt=12)
 - [Bear](http://www.bear-writer.com/)
 - [CheatSheet](https://mediaatelier.com/CheatSheet/)
 - [Contexts](https://contexts.co/)
