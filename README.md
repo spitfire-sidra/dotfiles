@@ -79,6 +79,7 @@ plugins=(git autopep8 autojump docker docker-compose django vundle virtualenv vi
 - [Gifrocket](http://www.gifrocket.com/)
 - [Itsycal](https://www.mowglii.com/itsycal/)
 - [MacDown](https://macdown.uranusjr.com/)
+- [Medis](http://getmedis.com/)
 - [Numi](https://numi.io/)
 - [Paste](https://pasteapp.me/)
 - [Postgres.app](http://postgresapp.com/)
