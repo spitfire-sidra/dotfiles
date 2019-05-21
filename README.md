@@ -126,6 +126,9 @@ git config --global user.name "Your Name Here"
 git config --global user.email "your_email@example.com"
 git config --global core.editor "Your favorite text editor"
 git config --global core.excludesfile '~/.gitignore'
+git config --global credential.helper osxkeychain               # macOS
+git config --global credential.helper cache                     # linux
+git config --global credential.helper 'cache --timeout=28800'   # linux
 ```
 
 ## Misc
