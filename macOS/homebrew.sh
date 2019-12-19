@@ -2,7 +2,7 @@
 
 brew update
 
-brew upgrade --all
+brew upgrade
 
 brew install coreutils
 
@@ -16,11 +16,11 @@ brew install findutils
 brew install binutils
 
 # install gnu `sed`, overwriting the built-in `sed`
-brew install gnu-sed --with-default-names
+brew install gnu-sed
 brew install bash
 brew install homebrew/versions/bash-completion2
 brew install zsh zsh-completions
-brew install wget --with-iri
+brew install wget
 brew install vim --override-system-vi
 
 # install other useful binaries
@@ -60,8 +60,6 @@ brew install npm
 brew install webpack
 
 # enhance quick look
-brew cask install qlcolorcode
-brew cask install qlstephen
 brew cask install qlmarkdown
 brew cask install quicklook-json
 brew cask install qlprettypatch
