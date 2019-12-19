@@ -74,3 +74,7 @@ brew cask install suspicious-package
 
 # final step
 brew cleanup
+
+# python
+brew install python
+brew install pyenv
