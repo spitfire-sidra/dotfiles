@@ -23,6 +23,9 @@ brew install zsh zsh-completions
 brew install wget
 brew install vim
 
+# install oh my zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 # install other useful binaries
 brew install ack
 # ag
