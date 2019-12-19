@@ -21,7 +21,7 @@ brew install bash
 brew install homebrew/versions/bash-completion2
 brew install zsh zsh-completions
 brew install wget
-brew install vim --override-system-vi
+brew install vim
 
 # install other useful binaries
 brew install ack
@@ -40,6 +40,7 @@ brew install telnet
 # replace built-in ctags
 brew install ctags
 brew install fzf
+/usr/local/opt/fzf/install
 brew install autojump
 brew install fd
 brew install jq
