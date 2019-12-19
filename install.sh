@@ -95,3 +95,10 @@ if [ ! -d "${HOME}/.vim/bundle/Vundle.vim" ]; then
     mkdir ${HOME}/.vim/bundle/
     git clone https://github.com/gmarik/Vundle.vim.git ${HOME}/.vim/bundle/Vundle.vim
 fi
+
+# install patched fonts
+git clone https://github.com/powerline/fonts.git
+cd fonts
+chmod +x install.sh
+./install.sh
+cd ..
