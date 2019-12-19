@@ -33,6 +33,7 @@ eval "$(direnv hook zsh)"
 if [[ `uname` == 'Darwin' ]]
 then
     alias ctags="`brew --prefix`/bin/ctags"
+    alias python="`brew --prefix`bin/python3"
 fi
 
 # mysql-client path

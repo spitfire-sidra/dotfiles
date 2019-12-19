@@ -57,7 +57,7 @@ if [ ${SHELL} == "/bin/zsh" ]; then
     then
         echo $NEWLINE >> ~/.zshrc
         source ~/.zshrc
-        cp -r ./zshrc.d/* $HOME/.zshrc.d
+        cp -r ./zshrc.d $HOME/.zshrc.d
     fi
 fi
 
