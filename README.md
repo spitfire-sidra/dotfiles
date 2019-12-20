@@ -58,8 +58,10 @@ $ bash macOS/homebrew.sh
 
 ### oh-my-zsh settings
 
+You can change the following configurations in `~/.zshrc`
+
 ```
-ZSH_THEME=""
+ZSH_THEME="ys"
 HIST_STAMPS="yyyy-mm-dd"
 plugins=(git autopep8 autojump docker docker-compose django vundle virtualenv vim-interaction)
 ```
@@ -90,6 +92,13 @@ plugins=(git autopep8 autojump docker docker-compose django vundle virtualenv vi
 - [Shuttle](http://fitztrev.github.io/shuttle/)
 - [Unclutter](https://itunes.apple.com/us/app/unclutter/id577085396)
 
+### Python versions
+
+```
+$ pyenv install -l
+$ pyenv install 3.6.5
+$ pyenv global 3.6.5
+```
 
 ## Chrome
 
