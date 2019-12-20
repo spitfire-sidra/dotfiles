@@ -50,23 +50,7 @@ $ bash debian_ubuntu/linuxbrew.sh
 - [Oh My ZSH!](http://ohmyz.sh/)
 - [iTerm2](http://iterm2.com/)
 
-### Install tools via brew
-
-```
-$ bash macOS/homebrew.sh
-```
-
-### oh-my-zsh settings
-
-You can change the following configurations in `~/.zshrc`
-
-```
-ZSH_THEME="ys"
-HIST_STAMPS="yyyy-mm-dd"
-plugins=(git autopep8 autojump docker docker-compose django vundle virtualenv vim-interaction)
-```
-
-### macOS Apps
+### Recommended macOS Apps
 
 - [Alfred](https://www.alfredapp.com/)
 - [AppCleaner](https://freemacsoft.net/appcleaner/)
@@ -92,7 +76,42 @@ plugins=(git autopep8 autojump docker docker-compose django vundle virtualenv vi
 - [Shuttle](http://fitztrev.github.io/shuttle/)
 - [Unclutter](https://itunes.apple.com/us/app/unclutter/id577085396)
 
-### Python versions
+### Install tools via brew
+
+```
+$ bash macOS/homebrew.sh
+```
+
+### oh-my-zsh settings
+
+You can change the following configurations in `~/.zshrc`
+
+```
+ZSH_THEME="ys"
+HIST_STAMPS="yyyy-mm-dd"
+plugins=(git autopep8 autojump docker docker-compose django vundle virtualenv vim-interaction)
+```
+
+## Install dotfiles
+
+```
+$ chmod +x install.sh
+$ ./install.sh
+```
+
+## Update Git Configurations
+
+```
+git config --global user.name "Your Name Here"
+git config --global user.email "your_email@example.com"
+git config --global core.editor "Your favorite text editor"
+git config --global core.excludesfile '~/.gitignore'
+git config --global credential.helper osxkeychain               # macOS
+git config --global credential.helper cache                     # linux
+git config --global credential.helper 'cache --timeout=28800'   # linux
+```
+
+## Choose Global Python Version
 
 ```
 $ pyenv install -l
@@ -100,9 +119,15 @@ $ pyenv install 3.6.5
 $ pyenv global 3.6.5
 ```
 
+### Install python packages via pip
+
+```
+$ pip install -r pip/requirements.txt
+```
+
 ## Chrome
 
-### Extensions
+### Recommended Extensions
 
 - [EditThisCookie](http://www.editthiscookie.com/)
 - [Google Webspam Report](https://chrome.google.com/webstore/detail/google-webspam-report-by/efinmbicabejjhjafeidhfbojhnfiepj)
@@ -114,31 +139,6 @@ $ pyenv global 3.6.5
 - [Page Analytics](https://chrome.google.com/webstore/detail/page-analytics-by-google/fnbdnhhicmebfgdgglcdacdapkcihcoh)
 - [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg)
 - [Vue.js devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-
-## Install python packages via pip
-
-```
-$ pip install -r pip/requirements.txt
-```
-
-## Install dotfiles
-
-```
-$ chmod +x install.sh
-$ ./install.sh
-```
-
-## Git Configurations
-
-```
-git config --global user.name "Your Name Here"
-git config --global user.email "your_email@example.com"
-git config --global core.editor "Your favorite text editor"
-git config --global core.excludesfile '~/.gitignore'
-git config --global credential.helper osxkeychain               # macOS
-git config --global credential.helper cache                     # linux
-git config --global credential.helper 'cache --timeout=28800'   # linux
-```
 
 ## Misc
 
