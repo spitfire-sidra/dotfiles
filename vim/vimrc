@@ -228,6 +228,13 @@ nmap <leader>gd :Gdiff<CR>
 nmap <leader>gs :Gstatus<CR>
 nmap <leader>gb :Gblame<CR>
 
+Plugin 'tpope/vim-surround'
+Plugin 'vifm/vifm.vim'
+map <Leader>vv :Vifm<CR>
+map <Leader>vs :VsplitVifm<CR>
+map <Leader>dv :DiffVifm<CR>
+map <Leader>tv :TabVifm<CR>
+
 Plugin 'airblade/vim-gitgutter'
 
 Plugin 'rking/ag.vim'

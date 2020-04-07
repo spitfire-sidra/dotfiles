@@ -22,6 +22,7 @@ brew install homebrew/versions/bash-completion2
 brew install zsh zsh-completions
 brew install wget
 brew install vim
+brew install vifm
 
 # install oh my zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
