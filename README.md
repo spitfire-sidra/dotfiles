@@ -202,6 +202,8 @@ Just put bash/zsh rc files in `~/.bashrc.d` / `~/.zshrc.d`
 
 `Ctrl + n` to open `NERDTree`
 
+`,vv` to open `Vifm`
+
 `%` to match it (may not work for some file types)
 
 `,c` to clear highlight search result
