@@ -271,6 +271,15 @@ Plugin 'SirVer/ultisnips'
 Plugin 'davidhalter/jedi-vim'
 let g:jedi#completions_command = "<C-O>"
 
+" js syntax highlight
+Plugin 'pangloss/vim-javascript'
+let g:javascript_plugin_jsdoc = 1
+
+" jsx syntax highlight
+Plugin 'maxmellon/vim-jsx-pretty'
+" enable tsx highlight
+let g:vim_jsx_pretty_disable_tsx = 1
+
 " Snippets are separated from the engine. Add this if you want them:
 Plugin 'honza/vim-snippets'
 
