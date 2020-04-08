@@ -4,8 +4,7 @@
 
 - [Golang](https://golang.org/)
 - [Python 3](https://www.python.org/)
-- [Node.js](https://nodejs.org/en/)
-  [nodesource](https://github.com/nodesource/distributions)
+- [Node.js](https://nodejs.org/en/) Binary distributions: [nodesource](https://github.com/nodesource/distributions)
 
 ### Editors
 
@@ -123,6 +122,14 @@ $ pyenv global 3.6.5
 
 ```
 $ pip install -r pip/requirements.txt
+```
+
+## Choose Global Nodejs Version
+
+```
+$ nvm ls-remote --lts
+$ nvm install 12.16.1
+$ nvm use 12.16.1
 ```
 
 ## Chrome

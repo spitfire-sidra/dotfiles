@@ -61,6 +61,9 @@ brew install ripgrep
 
 # nodejs
 brew install nodejs
+brew install nvm
+# setup nvm working directory
+mkdir ~/.nvm
 brew install npm
 brew install webpack
 

@@ -29,11 +29,17 @@ function mgrep()
 # direnv
 eval "$(direnv hook zsh)"
 
-# ctags
 if [[ `uname` == 'Darwin' ]]
 then
+    # ctags
     alias ctags="`brew --prefix`/bin/ctags"
     eval "$(pyenv init -)"
+
+    export NVM_DIR="$HOME/.nvm"
+    # This loads nvm
+    [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"
+    # This loads nvm bash_completion
+    [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"
 fi
 
 # mysql-client path
