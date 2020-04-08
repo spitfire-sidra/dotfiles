@@ -216,6 +216,11 @@ set wildignore+=*.swp,*.zip,*.exe,*.pyc,*.png,*.jpg,*.gif  " Windows
 let g:ctrlp_custom_ignore='\v[\/]\.(git|hg|svn)$'
 let g:ctrlp_custom_ignore='\v\.(exe|so|dll)$'
 
+" ALE
+Plugin 'dense-analysis/ale'
+nmap <silent> <C-k> <Plug>(ale_previous_wrap)
+nmap <silent> <C-j> <Plug>(ale_next_wrap)
+
 Plugin 'nvie/vim-flake8'
 let g:flake8_quickfix_height=10
 "let g:flake8_show_in_gutter=1
