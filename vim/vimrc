@@ -285,6 +285,9 @@ Plugin 'maxmellon/vim-jsx-pretty'
 " enable tsx highlight
 let g:vim_jsx_pretty_disable_tsx = 1
 
+" typescript
+Plugin 'leafgarland/typescript-vim'
+
 " Snippets are separated from the engine. Add this if you want them:
 Plugin 'honza/vim-snippets'
 
