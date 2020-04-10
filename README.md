@@ -136,6 +136,7 @@ $ nvm use 12.16.1
 
 - [EditThisCookie](http://www.editthiscookie.com/)
 - [Google Webspam Report](https://chrome.google.com/webstore/detail/google-webspam-report-by/efinmbicabejjhjafeidhfbojhnfiepj)
+- [HTTPS Everywhere](https://www.eff.org/https-everywhere)
 - [JSON viewer](https://github.com/tulios/json-viewer)
 - [LastPass](https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd)
 - [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)
