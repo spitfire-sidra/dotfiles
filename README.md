@@ -86,7 +86,7 @@ You can change the following configurations in `~/.zshrc`
 ```
 ZSH_THEME="ys"
 HIST_STAMPS="yyyy-mm-dd"
-plugins=(autopep8 autojump docker docker-compose django vundle virtualenv vim-interaction)
+plugins=(git gitfast git-extras autopep8 autojump docker docker-compose django vundle virtualenv vim-interaction)
 ```
 
 ## Install dotfiles
