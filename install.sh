@@ -55,24 +55,6 @@ if [ ${SHELL} == "/bin/zsh" ]; then
     fi
 fi
 
-if [ ${SHELL} == "/bin/zsh" ]; then
-    NEWLINE="fpath=(~/.zsh \$fpath)"
-    if ! grep -Fxq "$NEWLINE" ~/.zshrc
-    then
-        echo $NEWLINE >> ~/.zshrc
-        source ~/.zshrc
-    fi
-fi
-
-if [ ${SHELL} == "/bin/zsh" ]; then
-    NEWLINE="source ~/.git-prompt.sh"
-    if ! grep -Fxq "$NEWLINE" ~/.zshrc
-    then
-        echo $NEWLINE >> ~/.zshrc
-        source ~/.zshrc
-    fi
-fi
-
 if [ ${SHELL} == "/bin/bash" ]; then
     NEWLINE="source $CURRENT_PATH/bashrc"
     if ! grep -Fxq "$NEWLINE" ~/.bashrc

@@ -9,6 +9,7 @@ set title
 set visualbell
 set noerrorbells
 set mps+=<:>
+set fillchars=vert:\│
 
 "split navigations
 nnoremap <C-J> <C-W><C-J>
