@@ -305,7 +305,7 @@ $ mv user.vim ~/.vim/
 
 ## Recommended fonts for terminal
 
-- [ ] Consolas (built-in on MAC OS X)
+- [ ] Consolas (built-in on macOS)
 - [x] [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
 - [ ] [Anonymous Pro](http://www.marksimonson.com/fonts/view/anonymous-pro)
 - [ ] [Ubuntu Mono](http://font.ubuntu.com/)
