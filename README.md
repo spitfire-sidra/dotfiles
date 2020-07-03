@@ -112,8 +112,8 @@ git config --global credential.helper 'cache --timeout=28800'   # linux
 
 ```
 $ pyenv install -l
-$ pyenv install 3.6.5
-$ pyenv global 3.6.5
+$ pyenv install 3.7.0
+$ pyenv global 3.7.0
 ```
 
 ### Install python packages via pip
