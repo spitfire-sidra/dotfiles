@@ -112,8 +112,8 @@ git config --global credential.helper 'cache --timeout=28800'   # linux
 
 ```
 $ pyenv install -l
-$ pyenv install 3.6.5
-$ pyenv global 3.6.5
+$ pyenv install 3.7.0
+$ pyenv global 3.7.0
 ```
 
 ### Install python packages via pip
@@ -304,7 +304,7 @@ $ mv user.vim ~/.vim/
 
 ## Recommended fonts for terminal
 
-- [ ] Consolas (built-in on MAC OS X)
+- [ ] Consolas (built-in on macOS)
 - [x] [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
 - [ ] [Anonymous Pro](http://www.marksimonson.com/fonts/view/anonymous-pro)
 - [ ] [Ubuntu Mono](http://font.ubuntu.com/)
