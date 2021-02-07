@@ -147,6 +147,10 @@ $ nvm use 12.16.1
 
 ## Misc
 
+### Tools
+
+- [Cerebro](https://github.com/lmenezes/cerebro)
+
 ### Customized bash/zsh rc files
 
 Just put bash/zsh rc files in `~/.bashrc.d` / `~/.zshrc.d`

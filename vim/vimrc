@@ -216,6 +216,9 @@ set wildignore+=*.swp,*.zip,*.exe,*.pyc,*.png,*.jpg,*.gif  " Windows
 
 let g:ctrlp_custom_ignore='\v[\/]\.(git|hg|svn)$'
 let g:ctrlp_custom_ignore='\v\.(exe|so|dll)$'
+let g:ctrlp_custom_ignore= {
+  \ 'dir': '\v(node_modules|venv|dist)$'
+  \ }
 
 " ALE
 Plugin 'dense-analysis/ale'
