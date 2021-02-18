@@ -144,6 +144,9 @@ $ nvm use 12.16.1
 - [NimoTab](https://chrome.google.com/webstore/detail/nimotab/mhhkfkjgnfddpodoepjigdeaaookhfln)
 - [Page Analytics](https://chrome.google.com/webstore/detail/page-analytics-by-google/fnbdnhhicmebfgdgglcdacdapkcihcoh)
 - [Vue.js devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
+- [WhatFont](https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm)
+- [ScreenShot Capture & Editor Tool](https://chrome.google.com/webstore/detail/screenshot-capture-editor/haiidfhfnmfmicpakjjkibpcdoolnbbo)
+- [CSS Peeper](https://chrome.google.com/webstore/detail/css-peeper/mbnbehikldjhnfehhnaidhjhoofhpehk)
 
 ## Misc
 
