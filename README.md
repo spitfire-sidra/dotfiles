@@ -4,7 +4,9 @@
 
 - [Golang](https://golang.org/)
 - [Python 3](https://www.python.org/)
-- [Node.js](https://nodejs.org/en/) Binary distributions: [nodesource](https://github.com/nodesource/distributions)
+- [Node.js](https://nodejs.org/en/)
+    - Binary distributions: [nodesource](https://github.com/nodesource/distributions)
+    - [nvm](https://github.com/nvm-sh/nvm)
 
 ### Editors
 
@@ -13,7 +15,7 @@
 
 ### Docker
 
-- [Docker CE](https://www.docker.com/community-edition)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
 ### Fonts
 
@@ -156,7 +158,7 @@ $ nvm use 12.16.1
 
 ### Customized bash/zsh rc files
 
-Just put bash/zsh rc files in `~/.bashrc.d` / `~/.zshrc.d`
+Just put bash/zsh rc files in `~/.bashrc.d` / `zshrc.d`
 
 ### Install vim plugins using Vundle & vim-plug
 
@@ -296,12 +298,10 @@ $ mv user.vim ~/.vim/
 
 ## Optional Tools
 
-- [ActivityWatch](https://github.com/ActivityWatch/activitywatch)
 - [Ansible](https://www.ansible.com/)
 - [Cloud SDK](https://cloud.google.com/sdk/)
-- [Karabiner](https://pqrs.org/osx/karabiner/)
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-- [aws-cli](https://github.com/aws/aws-cli)
+- [aws-cli](https://github.com/aws/aws-cli/tree/v2#installation)
 - [aws-shell](https://github.com/awslabs/aws-shell)
 - [MySQL Workbench](https://www.mysql.com/products/workbench/)
 - [pg-cli](https://github.com/dbcli/pgcli)
