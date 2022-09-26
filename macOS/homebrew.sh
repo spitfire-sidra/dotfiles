@@ -31,7 +31,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 brew install ack
 # ag
 brew install the_silver_searcher
-brew install git
+#brew install git
 brew install ssh-copy-id
 brew install testssl
 brew install tree
@@ -60,12 +60,7 @@ brew install imagemagick --with-webp
 brew install ripgrep
 
 # nodejs
-brew install nodejs
 brew install nvm
-# setup nvm working directory
-mkdir ~/.nvm
-brew install npm
-brew install webpack
 
 # enhance quick look
 brew cask install qlmarkdown
@@ -76,9 +71,9 @@ brew cask install betterzipql
 brew cask install webpquicklook
 brew cask install suspicious-package
 
-# final step
-brew cleanup
-
 # python
 brew install python
 brew install pyenv
+
+# final step
+brew cleanup
