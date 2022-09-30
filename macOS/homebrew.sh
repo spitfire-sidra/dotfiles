@@ -60,6 +60,7 @@ brew install ripgrep
 
 # nodejs
 brew install nvm
+brew install yarn
 
 # enhance quick look
 brew install --cask qlmarkdown
