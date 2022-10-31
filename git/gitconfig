@@ -22,7 +22,7 @@
     unstage = reset HEAD
     uncommit = git reset --soft HEAD^
 [core]
-    pager = cat
+    pager = less -F
 [color]
     status = always
     ui = true
