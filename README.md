@@ -53,7 +53,6 @@ $ bash debian_ubuntu/linuxbrew.sh
 
 ### Recommended macOS Apps
 
-- [Alfred](https://www.alfredapp.com/)
 - [AppCleaner](https://freemacsoft.net/appcleaner/)
 - [Aware](https://itunes.apple.com/tw/app/aware/id1082170746?mt=12)
 - [Bear](http://www.bear-writer.com/)
@@ -70,6 +69,7 @@ $ bash debian_ubuntu/linuxbrew.sh
 - [Postgres.app](http://postgresapp.com/)
 - [Postico](https://eggerapps.at/postico/)
 - [Postman](https://www.getpostman.com/)
+- [Raycast](https://www.raycast.com/)
 - [Sequel Pro](https://www.sequelpro.com/)
 - [ShiftIt](https://github.com/fikovnik/ShiftIt)
 - [Shuttle](http://fitztrev.github.io/shuttle/)
