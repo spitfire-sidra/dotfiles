@@ -18,6 +18,7 @@ brew install binutils
 # install gnu `sed`, overwriting the built-in `sed`
 brew install gnu-sed
 brew install bash
+brew install bat
 brew install bash-completion@2
 brew install zsh zsh-completions
 brew install wget
