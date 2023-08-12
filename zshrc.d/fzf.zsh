@@ -1,5 +1,5 @@
-if [ -f ~/.fzf.zsh ]; then
-    source ~/.fzf.zsh
+FZF=$(brew --prefix)/bin/fzf
+if [ -f $FZF ]; then
     export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git --exclude node_modules'
 
     alias gcob="git checkout \$(git branch | fzf --cycle --ansi)"

@@ -136,7 +136,7 @@ nmap <F5> :set hls!<CR>:set hls?<CR>
 nnoremap <F6> :set ignorecase!<CR>
 " <F7> flake8
 nnoremap <F8> :TagbarToggle<CR>
-nnoremap <F9> :IndentLinesToggle<CR>
+
 " vim tab pages
 nnoremap <leader><Left> :tabprevious<CR>
 nnoremap <leader><Right> :tabnext<CR>
@@ -261,20 +261,12 @@ Plugin 'ap/vim-css-color'
 
 Plugin 'godlygeek/tabular'
 
-Plugin 'Yggdroot/indentLine'
-let g:indentLine_enabled=0
-let g:indentLine_char='︙'
-
 Plugin 'easymotion/vim-easymotion'
 nmap s <Plug>(easymotion-s)
 nmap s <Plug>(easymotion-s2)
 
 " color scheme
 Plugin 'jnurmine/Zenburn'
-
-" UltiSnips, >= vim 7.4 required
-" Track the engine.
-Plugin 'SirVer/ultisnips'
 
 " jedi vim
 Plugin 'davidhalter/jedi-vim'
@@ -294,10 +286,6 @@ Plugin 'leafgarland/typescript-vim'
 
 " Snippets are separated from the engine. Add this if you want them:
 Plugin 'honza/vim-snippets'
-
-let g:UltiSnipsExpandTrigger="<leader><tab>"
-let g:UltiSnipsJumpForwardTrigger="<leader><tab>"
-let g:UltiSnipsJumpBackwardTrigger="<leader><s-tab>"
 
 if hasvundle == 0
 	:PluginInstall

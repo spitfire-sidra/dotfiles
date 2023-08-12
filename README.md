@@ -4,7 +4,9 @@
 
 - [Golang](https://golang.org/)
 - [Python 3](https://www.python.org/)
-- [Node.js](https://nodejs.org/en/) Binary distributions: [nodesource](https://github.com/nodesource/distributions)
+- [Node.js](https://nodejs.org/en/)
+    - Binary distributions: [nodesource](https://github.com/nodesource/distributions)
+    - [nvm](https://github.com/nvm-sh/nvm)
 
 ### Editors
 
@@ -51,7 +53,6 @@ $ bash debian_ubuntu/linuxbrew.sh
 
 ### Recommended macOS Apps
 
-- [Alfred](https://www.alfredapp.com/)
 - [AppCleaner](https://freemacsoft.net/appcleaner/)
 - [Aware](https://itunes.apple.com/tw/app/aware/id1082170746?mt=12)
 - [Bear](http://www.bear-writer.com/)
@@ -68,6 +69,7 @@ $ bash debian_ubuntu/linuxbrew.sh
 - [Postgres.app](http://postgresapp.com/)
 - [Postico](https://eggerapps.at/postico/)
 - [Postman](https://www.getpostman.com/)
+- [Raycast](https://www.raycast.com/)
 - [Sequel Pro](https://www.sequelpro.com/)
 - [ShiftIt](https://github.com/fikovnik/ShiftIt)
 - [Shuttle](http://fitztrev.github.io/shuttle/)
@@ -86,7 +88,7 @@ You can change the following configurations in `~/.zshrc`
 ```
 ZSH_THEME="ys"
 HIST_STAMPS="yyyy-mm-dd"
-plugins=(git gitfast git-extras autopep8 autojump docker docker-compose vundle virtualenv vim-interaction)
+plugins=(git gitfast git-extras autopep8 autojump docker docker-compose vundle virtualenv vim-interaction zsh-autosuggestions)
 ```
 
 ## Install dotfiles
@@ -156,7 +158,7 @@ $ nvm use 12.16.1
 
 ### Customized bash/zsh rc files
 
-Just put bash/zsh rc files in `~/.bashrc.d` / `~/.zshrc.d`
+Just put bash/zsh rc files in `~/.bashrc.d` / `zshrc.d`
 
 ### Install vim plugins using Vundle & vim-plug
 
@@ -296,12 +298,10 @@ $ mv user.vim ~/.vim/
 
 ## Optional Tools
 
-- [ActivityWatch](https://github.com/ActivityWatch/activitywatch)
 - [Ansible](https://www.ansible.com/)
 - [Cloud SDK](https://cloud.google.com/sdk/)
-- [Karabiner](https://pqrs.org/osx/karabiner/)
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-- [aws-cli](https://github.com/aws/aws-cli)
+- [aws-cli](https://github.com/aws/aws-cli/tree/v2#installation)
 - [aws-shell](https://github.com/awslabs/aws-shell)
 - [MySQL Workbench](https://www.mysql.com/products/workbench/)
 - [pg-cli](https://github.com/dbcli/pgcli)
