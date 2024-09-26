@@ -50,6 +50,8 @@ $ bash debian_ubuntu/linuxbrew.sh
 - [Homebrew](https://brew.sh/)
 - [Oh My ZSH!](http://ohmyz.sh/)
 - [iTerm2](http://iterm2.com/)
+- [Ollama](https://ollama.com/)
+- [OrbStack](https://orbstack.dev/)
 
 ### Recommended macOS Apps
 
