@@ -72,6 +72,13 @@ if [ ! -d "${HOME}/.vim/bundle/Vundle.vim" ]; then
     git clone https://github.com/gmarik/Vundle.vim.git ${HOME}/.vim/bundle/Vundle.vim
 fi
 
+# install lazyvim
+if [ ! -d "$HOME/.config/nvim/lazyvim.json" ]; then
+    mkdir -p ${HOME}/.config/nvim/
+    git clone https://github.com/LazyVim/starter ${HOME}/.config/nvim
+fi
+
+
 # install patched fonts
 git clone https://github.com/powerline/fonts.git
 cd fonts
