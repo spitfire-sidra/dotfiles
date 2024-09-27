@@ -298,6 +298,8 @@ $ mv user.vim ~/.vim/
 
 `,tm` vim table mode
 
+[lazyvim keymaps](https://www.lazyvim.org/keymaps)
+
 ## Optional Tools
 
 - [Ansible](https://www.ansible.com/)
@@ -313,7 +315,7 @@ $ mv user.vim ~/.vim/
 
 ## Recommended fonts for terminal
 
-- [ ] [Nerd Fonts](https://www.nerdfonts.com/)
+- [ ] [Nerd Fonts](https://www.nerdfonts.com/) [using brew](https://gist.github.com/davidteren/898f2dcccd42d9f8680ec69a3a5d350e)
 - [ ] Consolas (built-in on macOS)
 - [x] [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
 - [ ] [Anonymous Pro](http://www.marksimonson.com/fonts/view/anonymous-pro)
