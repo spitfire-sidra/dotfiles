@@ -24,6 +24,7 @@ brew install zsh zsh-completions
 brew install wget
 brew install vim
 brew install vifm
+brew install neovim
 
 # install oh my zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -71,5 +72,9 @@ brew install --cask quicklook-csv
 # python
 brew install pyenv
 
+# fonts
+brew install --cask font-sauce-code-pro-nerd-font
+
 # final step
 brew cleanup
+
