@@ -36,42 +36,40 @@ cp -i ./wgetrc ${HOME}/.wgetrc
 
 # setup ssh config
 if [ ! -d "${HOME}/.ssh/config" ]; then
-    cp ./ssh/config ${HOME}/.ssh/config
+	cp ./ssh/config ${HOME}/.ssh/config
 fi
 
 CURRENT_PATH=${PWD}
 
 if [ ${SHELL} == "/bin/zsh" ]; then
-    NEWLINE="source $CURRENT_PATH/zshrc"
-    if ! grep -Fxq "$NEWLINE" ~/.zshrc
-    then
-        echo $NEWLINE >> ~/.zshrc
-        source ~/.zshrc
-        cp -r ./zshrc.d $HOME/.zshrc.d
-    fi
+	NEWLINE="source $CURRENT_PATH/zshrc"
+	if ! grep -Fxq "$NEWLINE" ~/.zshrc; then
+		echo $NEWLINE >>~/.zshrc
+		source ~/.zshrc
+		cp -r ./zshrc.d $HOME/.zshrc.d
+	fi
 fi
 
 if [ ${SHELL} == "/bin/bash" ]; then
-    NEWLINE="source $CURRENT_PATH/bashrc"
-    if ! grep -Fxq "$NEWLINE" ~/.bashrc
-    then
-        mkdir -p $HOME/.bashrc.d
-        cp -r ./bashrc.d/* $HOME/.bashrc.d
-        echo $NEWLINE >> ~/.bashrc
-        source ~/.bashrc
-    fi
+	NEWLINE="source $CURRENT_PATH/bashrc"
+	if ! grep -Fxq "$NEWLINE" ~/.bashrc; then
+		mkdir -p $HOME/.bashrc.d
+		cp -r ./bashrc.d/* $HOME/.bashrc.d
+		echo $NEWLINE >>~/.bashrc
+		source ~/.bashrc
+	fi
 fi
 
 # install vundle
 if [ ! -d "${HOME}/.vim/bundle/Vundle.vim" ]; then
-    mkdir ${HOME}/.vim/bundle/
-    git clone https://github.com/gmarik/Vundle.vim.git ${HOME}/.vim/bundle/Vundle.vim
+	mkdir ${HOME}/.vim/bundle/
+	git clone https://github.com/gmarik/Vundle.vim.git ${HOME}/.vim/bundle/Vundle.vim
 fi
 
 # install lazyvim
 if [ ! -d "$HOME/.config/nvim/lazyvim.json" ]; then
-    mkdir -p ${HOME}/.config/nvim/
-    git clone https://github.com/LazyVim/starter ${HOME}/.config/nvim
+	mkdir -p ${HOME}/.config/nvim/
+	git clone https://github.com/LazyVim/starter ${HOME}/.config/nvim
 fi
 
 # setup nvim env
@@ -84,3 +82,8 @@ cd fonts
 chmod +x install.sh
 ./install.sh
 cd ..
+
+if [ -x "$(command -v brew)" ]; then
+	echo "[NOTICE] please fix the zsh issue by running the following command:"
+	echo "compaudit | xargs chmod g-w"
+fi
