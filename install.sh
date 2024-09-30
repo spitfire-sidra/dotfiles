@@ -18,10 +18,6 @@ cp -i ./editorconfig ${HOME}/.editorconfig
 cp -i ./vim/vimrc ${HOME}/.vimrc
 cp -i ./vim/gvimrc ${HOME}/.gvimrc
 
-# setup nvim env
-mkdir -p ${HOME}/.config/nvim
-cp -i ./nvim/init.vim ${HOME}/.config/nvim/init.vim
-
 mkdir -p ${HOME}/.vim/colors
 cp -i -r ./vim/colors ${HOME}/.vim/
 
@@ -78,6 +74,9 @@ if [ ! -d "$HOME/.config/nvim/lazyvim.json" ]; then
     git clone https://github.com/LazyVim/starter ${HOME}/.config/nvim
 fi
 
+# setup nvim env
+mkdir -p ${HOME}/.config/nvim
+cp -i ./nvim/init.lua ${HOME}/.config/nvim/init.lua
 
 # install patched fonts
 git clone https://github.com/powerline/fonts.git
