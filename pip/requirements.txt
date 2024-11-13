@@ -1,5 +1,0 @@
-flake8
-pyright
-powerline-shell
-pre-commit
-ruff-lsp

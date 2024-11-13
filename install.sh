@@ -87,3 +87,12 @@ if [ -x "$(command -v brew)" ]; then
 	echo "[NOTICE] please fix the zsh issue by running the following command:"
 	echo "compaudit | xargs chmod g-w"
 fi
+
+# pipx
+pipx ensurepath
+pipx install flake8
+pipx install lazym
+pipx install pyright
+pipx install pre-commit
+pipx install ruff-lsp
+
