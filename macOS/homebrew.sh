@@ -73,6 +73,7 @@ brew install yarn
 
 # python
 brew install pyenv
+brew install pipx
 
 # fonts
 brew install --cask font-sauce-code-pro-nerd-font
