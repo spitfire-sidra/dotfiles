@@ -116,14 +116,8 @@ git config --global credential.helper 'cache --timeout=28800'   # linux
 
 ```
 $ pyenv install -l
-$ pyenv install 3.7.0
-$ pyenv global 3.7.0
-```
-
-### Install python packages via pip
-
-```
-$ pip install -r pip/requirements.txt
+$ pyenv install 3.12.7
+$ pyenv global 3.12.7
 ```
 
 ## Choose Global Nodejs Version
